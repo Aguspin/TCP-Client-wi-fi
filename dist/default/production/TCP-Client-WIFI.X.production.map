@@ -105,12 +105,40 @@ c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fputs.DA_o) (_fwrite)
 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(puts.DA_o) (_putc_unlocked)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o)
+                              build/default/production/main.o (__printf_0)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o) (___fmt_0_needed)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o) (___vfprintf)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o) (___pad)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (_memset)
 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo)
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(stdout.DA_o) (___io_init_needed)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (_atoi)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (_tolower)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_lo)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___errno_val)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_lo)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___pop_float)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_lo)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___pop_int)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_lo)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o) (___pop_ptr)
 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo) (___init_stdio_needed)
 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo) (___io_file_needed)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_lo) (___extendsfdf2)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o) (__funpack)
+c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+                              c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memset.DA_o) (___mulsi3)
 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(lseekda.Meo)
                               c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o) (_lseek)
 
@@ -146,16 +174,16 @@ Default Scalar Model: Small
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-.text                        0x100               0x498           0x6e4  (1764)
-_040152806250dcfa            0x598               0x100           0x180  (384)
-.const                       0x698                0xa4            0xf6  (246)
-.text                        0x73c              0x60f4          0x916e  (37230)
-.dinit                      0x6830                0x9e            0xed  (237)
-.text                       0x68ce               0x1e4           0x2d6  (726)
-.init.delay32               0x6ab2                0x1c            0x2a  (42)
-.text                       0x6ace                0x36            0x51  (81)
+.text                        0x100               0xbf4          0x11ee  (4590)
+_040e32806250eadb            0xcf4               0x100           0x180  (384)
+.const                       0xdf4                0xf2           0x16b  (363)
+.text                        0xee6              0x6064          0x9096  (37014)
+.dinit                      0x6f4a                0xbe           0x11d  (285)
+.text                       0x7008               0x2c2           0x423  (1059)
+.init.delay32               0x72ca                0x1c            0x2a  (42)
+.text                       0x72e6                0x36            0x51  (81)
 
-                 Total "program" memory used (bytes):         0x9f06  (40710) 30%
+                 Total "program" memory used (bytes):         0xab2a  (43818) 32%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x4000]
@@ -169,9 +197,11 @@ section                    address      alignment gaps    total length  (dec)
 .nbss                        0x82e                   0             0x4  (4)
 .bss                         0x832                   0            0x84  (132)
 .data                        0x8b6                   0            0x42  (66)
-.bss                         0x8f8                   0            0x7a  (122)
+.bss                         0x8f8                   0            0x5c  (92)
+.data                        0x954                   0            0x1c  (28)
+.bss                         0x970                   0            0x20  (32)
 
-                 Total "data" memory used (bytes):          0x172  (370) 2%
+                 Total "data" memory used (bytes):          0x190  (400) 2%
 
 
 Dynamic Memory Usage
@@ -179,9 +209,9 @@ Dynamic Memory Usage
 region                     address                      maximum length  (dec)
 ------                     -------                      ---------------------
 heap                             0                                   0  (0)
-stack                        0x972                              0x3e8e  (16014)
+stack                        0x990                              0x3e70  (15984)
 
-                 Maximum dynamic memory (bytes):         0x3e8e  (16014)
+                 Maximum dynamic memory (bytes):         0x3e70  (15984)
 
 Info: Project is using a large data memory model when small data memory model is sufficient.
 
@@ -202,15 +232,17 @@ External Symbols in Data Memory (by address):
                     0x0832                  _gastrSockets
                     0x08b6                  __stdout
                     0x08b8                  ___stdout_used
-                    0x0954                  _gstrHifCxt
-                    0x096e                  _cmd
+                    0x0970                  _gstrHifCxt
+                    0x098a                  _cmd
+                    0x098e                  ___errno_val
 
 External Symbols in Data Memory (by name):
 
                     0x082e                  _INT_InterruptHandler
+                    0x098e                  ___errno_val
                     0x08b8                  ___stdout_used
                     0x08b6                  __stdout
-                    0x096e                  _cmd
+                    0x098a                  _cmd
                     0x0828                  _egstrNmBusCapabilities
                     0x0832                  _gastrSockets
                     0x080a                  _gbSocketInit
@@ -218,7 +250,7 @@ External Symbols in Data Memory (by name):
                     0x0808                  _gpfAppResolveCb
                     0x0806                  _gpfAppSocketCb
                     0x0800                  _gsockerrno
-                    0x0954                  _gstrHifCxt
+                    0x0970                  _gstrHifCxt
                     0x0802                  _gu16BufferSize
                     0x0804                  _gu16SessionID
                     0x0801                  _gu8OpCode
@@ -251,238 +283,256 @@ External Symbols in Program Memory (by address):
                   0x00052e                  _fwrite
                   0x00055a                  ___putc_unbuffered
                   0x00058a                  _putc
-                  0x00058e                  ___init_stdio
-                  0x00071c                  _spiMaster
-                  0x00073c                  _Socket_ReadSocketData
-                  0x0008b6                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
-                  0x000d6e                  _socketInit
-                  0x000d90                  _socketDeinit
-                  0x000dac                  _registerSocketCallback
-                  0x000dc2                  _socket
-                  0x000f1e                  _bind
-                  0x000fd6                  _listen
-                  0x001048                  _accept
-                  0x001082                  _connect
-                  0x001152                  _send
-                  0x001240                  _sendto
-                  0x00132c                  _recv
-                  0x00144c                  _close
-                  0x00151a                  _recvfrom
-                  0x001632                  _nmi_inet_addr
-                  0x001700                  _gethostbyname
-                  0x00199c                  _setsockopt
-                  0x001a52                  _getsockopt
-                  0x001a6c                  _m2m_ping_req
-                  0x001ac8                  _sslEnableCertExpirationCheck
-                  0x001aec                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
-                  0x001dd2                  _m2m_wifi_download_mode
-                  0x001fa6                  _m2m_wifi_send_crl
-                  0x001fcc                  _m2m_wifi_init
-                  0x002034                  _m2m_wifi_deinit
-                  0x002046                  _m2m_wifi_handle_events
-                  0x002050                  _m2m_wifi_default_connect
-                  0x002066                  _m2m_wifi_connect
-                  0x002094                  _m2m_wifi_connect_sc
-                  0x002362                  _m2m_wifi_disconnect
-                  0x002378                  _m2m_wifi_set_mac_address
-                  0x00239e                  _m2m_wifi_set_static_ip
-                  0x0023e4                  _m2m_wifi_request_dhcp_client
-                  0x0023ec                  _m2m_wifi_request_dhcp_server
-                  0x0023f6                  _m2m_wifi_enable_dhcp
-                  0x002420                  _m2m_wifi_set_lsn_int
-                  0x00243a                  _m2m_wifi_set_cust_InfoElement
-                  0x002480                  _m2m_wifi_set_scan_options
-                  0x0024b0                  _m2m_wifi_set_scan_region
-                  0x0024da                  _m2m_wifi_request_scan
-                  0x00253c                  _m2m_wifi_request_scan_passive
-                  0x0025a8                  _m2m_wifi_request_scan_ssid_list
-                  0x00267a                  _m2m_wifi_wps
-                  0x0026b2                  _m2m_wifi_wps_disable
-                  0x0026d0                  _m2m_wifi_req_client_ctrl
-                  0x0026e0                  _m2m_wifi_req_server_init
-                  0x0026f0                  _m2m_wifi_p2p
-                  0x002738                  _m2m_wifi_p2p_disconnect
-                  0x002756                  _m2m_wifi_enable_ap
-                  0x002786                  _m2m_wifi_set_gains
-                  0x0027b4                  _m2m_wifi_disable_ap
-                  0x0027d2                  _m2m_wifi_req_curr_rssi
-                  0x0027f0                  _m2m_wifi_send_ethernet_pkt
-                  0x002838                  _m2m_wifi_get_otp_mac_address
-                  0x00286c                  _m2m_wifi_get_mac_address
-                  0x002898                  _m2m_wifi_req_scan_result
-                  0x0028c2                  _m2m_wifi_get_num_ap_found
-                  0x0028ca                  _m2m_wifi_get_sleep_mode
-                  0x0028d2                  _m2m_wifi_set_sleep_mode
-                  0x00290c                  _m2m_wifi_request_sleep
-                  0x002946                  _m2m_wifi_set_device_name
-                  0x0029a0                  _m2m_wifi_get_firmware_version
-                  0x0029c4                  _m2m_wifi_start_provision_mode
-                  0x002a4c                  _m2m_wifi_stop_provision_mode
-                  0x002a62                  _m2m_wifi_get_connection_info
-                  0x002a78                  _m2m_wifi_set_sytem_time
-                  0x002a92                  _m2m_wifi_get_sytem_time
-                  0x002aa8                  _m2m_wifi_enable_sntp
-                  0x002ad2                  _m2m_wifi_set_power_profile
-                  0x002afc                  _m2m_wifi_set_tx_power
-                  0x002b26                  _m2m_wifi_enable_firmware_logs
-                  0x002b50                  _m2m_wifi_set_battery_voltage
-                  0x002b80                  _m2m_wifi_prng_get_random_bytes
-                  0x0035e0                  _nm_spi_reset
-                  0x0035f8                  _nm_spi_init
-                  0x0036b0                  _nm_spi_deinit
-                  0x0036ba                  _nm_spi_read_reg
-                  0x0036ce                  _nm_spi_read_reg_with_ret
-                  0x0036fa                  _nm_spi_write_reg
-                  0x003726                  _nm_spi_read_block
-                  0x00375a                  _nm_spi_write_block
-                  0x003f60                  _spi_flash_enable
-                  0x004032                  _spi_flash_read
-                  0x0040bc                  _spi_flash_write
-                  0x0041ea                  _spi_flash_erase
-                  0x00429c                  _spi_flash_get_size
-                  0x004300                  _chip_apply_conf
-                  0x004368                  _chip_idle
-                  0x0043b8                  _enable_interrupts
-                  0x004430                  _cpu_start
-                  0x004528                  _nmi_get_chipid
-                  0x004616                  _nmi_get_rfrevid
-                  0x004632                  _restore_pmu_settings_after_global_reset
-                  0x00466a                  _nmi_update_pll
-                  0x0046a6                  _nmi_set_sys_clk_src_to_xo
-                  0x0046c0                  _chip_sleep
-                  0x0047ba                  _chip_wake
-                  0x0048c2                  _cpu_halt
-                  0x004978                  _chip_reset_and_cpu_halt
-                  0x0049a4                  _chip_reset
-                  0x0049c0                  _wait_for_bootrom
-                  0x004af8                  _wait_for_firmware_start
-                  0x004ba4                  _chip_deinit
-                  0x004bf8                  _nmi_get_otp_mac_address
-                  0x004cd6                  _nmi_get_mac_address
-                  0x004d74                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
-                  0x004dc8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
-                  0x004dd8                  _hif_chip_wake
-                  0x004e18                  _hif_set_sleep_mode
-                  0x004e24                  _hif_get_sleep_mode
-                  0x004e2e                  _hif_chip_sleep_sc
-                  0x004e48                  _hif_chip_sleep
-                  0x004e7a                  _hif_init
-                  0x004e98                  _hif_deinit
-                  0x004eb6                  _hif_send
-                  0x00537c                  _hif_handle_isr
-                  0x0053ac                  _hif_receive
-                  0x00548a                  _hif_register_cb
-                  0x005506                  _nm_get_firmware_info
-                  0x00564c                  _nm_get_firmware_full_info
-                  0x0057c0                  _nm_get_ota_firmware_info
-                  0x00591e                  _nm_drv_init_download_mode
-                  0x00596e                  _nm_drv_init
-                  0x005a04                  _nm_drv_deinit
-                  0x005a3e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
-                  0x005adc                  _m2m_ssl_handshake_rsp
-                  0x005b0e                  _m2m_ssl_send_certs_to_winc
-                  0x005b3a                  _m2m_ssl_retrieve_cert
-                  0x005cd8                  _m2m_ssl_retrieve_hash
-                  0x005d34                  _m2m_ssl_stop_processing_certs
-                  0x005d44                  _m2m_ssl_ecc_process_done
-                  0x005d4e                  _m2m_ssl_set_active_ciphersuites
-                  0x005d7a                  _m2m_ssl_init
-                  0x005d9c                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
-                  0x005e26                  _m2m_ota_init
-                  0x005e5c                  _m2m_ota_notif_set_url
-                  0x005e8e                  _m2m_ota_notif_check_for_update
-                  0x005eac                  _m2m_ota_notif_sched
-                  0x005ece                  _m2m_ota_start_update
-                  0x005f00                  _m2m_ota_start_update_crt
-                  0x005f32                  _m2m_ota_rollback
-                  0x005f50                  _m2m_ota_rollback_crt
-                  0x005f6e                  _m2m_ota_abort
-                  0x005f8c                  _m2m_ota_switch_firmware
-                  0x005faa                  _m2m_ota_switch_crt
-                  0x005fc8                  _m2m_ota_get_firmware_version
-                  0x005fec                  _nm_bus_iface_init
-                  0x006004                  _nm_bus_iface_deinit
-                  0x006014                  _nm_bus_reset
-                  0x006020                  _nm_bus_iface_reconfigure
-                  0x006030                  _nm_read_reg
-                  0x00603c                  _nm_read_reg_with_ret
-                  0x006050                  _nm_write_reg
-                  0x006080                  _nm_read_block
-                  0x006152                  _nm_write_block
-                  0x006208                  _m2m_memcpy
-                  0x006252                  _m2m_checksum
-                  0x00628c                  _m2m_memset
-                  0x0062c8                  _m2m_strlen
-                  0x0062f0                  _m2m_strncmp
-                  0x006352                  _m2m_strstr
-                  0x0063c6                  _m2m_memcmp
-                  0x00641c                  _spi1_close
-                  0x006424                  _spi1_open
-                  0x00647a                  _spi1_exchangeByte
-                  0x006494                  _spi1_exchangeBlock
-                  0x0064d0                  _spi1_writeBlock
-                  0x006508                  _spi1_readBlock
-                  0x006542                  _spi1_writeByte
-                  0x00654e                  _spi1_readByte
-                  0x006558                  _spi1_isr
-                  0x006574                  _spi1_setSpiISR
-                  0x006640                  _nm_bus_init
-                  0x006664                  _nm_bus_ioctl
-                  0x0066aa                  _nm_bus_deinit
-                  0x0066b2                  _nm_bus_reinit
-                  0x0066bc                  _PIN_MANAGER_Initialize
-                  0x00675a                  _INT_SetInterruptHandler
-                  0x00676a                  _INT_SetIOCInterruptHandler
-                  0x006776                  _UART1_Initialize
-                  0x00678c                  _UART1_Read
-                  0x0067aa                  _UART1_Write
-                  0x0067c2                  _UART1_IsRxReady
-                  0x0067da                  _UART1_IsTxReady
-                  0x0067fc                  _UART1_IsTxDone
-                  0x006814                  _UART1_StatusGet
-                  0x00681c                  _UART1_Enable
-                  0x006826                  _UART1_Disable
-                  0x0068ce                  build/default/production/main.o:_wifi_cb
-                  0x0068da                  _main
-                  0x00691e                  _wifi_connect
-                  0x006956                  _init_gpio
-                  0x006970                  _nm_bsp_init
-                  0x00697e                  _nm_bsp_deinit
-                  0x006986                  _nm_bsp_reset
-                  0x0069a6                  _nm_bsp_sleep
-                  0x0069d0                  _nm_bsp_register_isr
-                  0x0069e4                  _nm_bsp_interrupt_ctrl
-                  0x0069f8                  _DELAY_milliseconds
-                  0x006a1a                  _DELAY_microseconds
-                  0x006a4e                  _CLOCK_Initialize
-                  0x006a94                  _WINC_open
-                  0x006a9e                  _spi_master_open
-                  0x006ab2                  ___delay32
-                  0x006ae6                  _INTERRUPT_Initialize
-                  0x006af6                  _SYSTEM_Initialize
+                  0x00059c                  ___sio_printf_0
+                  0x00059e                  ___fmt_s
+                  0x0005f2                  ___vfprintf
+                  0x000636                  ___pad
+                  0x0006b0                  ___fmt_state
+                  0x00099c                  ___printf_core
+                  0x0009dc                  _memset
+                  0x000ab6                  _atoi
+                  0x000b02                  _tolower
+                  0x000b0e                  ___tolower_l
+                  0x000b10                  ___pop_float
+                  0x000b4e                  ___pop_int
+                  0x000c00                  ___pop_ptr
+                  0x000c76                  ___init_stdio
+                  0x000c7c                  ___extendsfdf2
+                  0x000cba                  __funpack
+                  0x000ce4                  ___mulsi3
+                  0x000ce4                  ___mulp32eds3
+                  0x000ce4                  ___mulp32peds3
+                  0x000ec6                  _spiMaster
+                  0x000ee6                  _Socket_ReadSocketData
+                  0x001060                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
+                  0x001518                  _socketInit
+                  0x00153a                  _socketDeinit
+                  0x001556                  _registerSocketCallback
+                  0x00156c                  _socket
+                  0x0016c8                  _bind
+                  0x001780                  _listen
+                  0x0017f2                  _accept
+                  0x00182c                  _connect
+                  0x0018fc                  _send
+                  0x0019ea                  _sendto
+                  0x001ad6                  _recv
+                  0x001bf6                  _close
+                  0x001cc4                  _recvfrom
+                  0x001ddc                  _nmi_inet_addr
+                  0x001eaa                  _gethostbyname
+                  0x002146                  _setsockopt
+                  0x0021fc                  _getsockopt
+                  0x002216                  _m2m_ping_req
+                  0x002272                  _sslEnableCertExpirationCheck
+                  0x002296                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
+                  0x00257c                  _m2m_wifi_download_mode
+                  0x002750                  _m2m_wifi_send_crl
+                  0x002776                  _m2m_wifi_init
+                  0x0027de                  _m2m_wifi_deinit
+                  0x0027f0                  _m2m_wifi_handle_events
+                  0x0027fa                  _m2m_wifi_default_connect
+                  0x002810                  _m2m_wifi_connect
+                  0x00283e                  _m2m_wifi_connect_sc
+                  0x002b0c                  _m2m_wifi_disconnect
+                  0x002b22                  _m2m_wifi_set_mac_address
+                  0x002b48                  _m2m_wifi_set_static_ip
+                  0x002b8e                  _m2m_wifi_request_dhcp_client
+                  0x002b96                  _m2m_wifi_request_dhcp_server
+                  0x002ba0                  _m2m_wifi_enable_dhcp
+                  0x002bca                  _m2m_wifi_set_lsn_int
+                  0x002be4                  _m2m_wifi_set_cust_InfoElement
+                  0x002c2a                  _m2m_wifi_set_scan_options
+                  0x002c5a                  _m2m_wifi_set_scan_region
+                  0x002c84                  _m2m_wifi_request_scan
+                  0x002ce6                  _m2m_wifi_request_scan_passive
+                  0x002d52                  _m2m_wifi_request_scan_ssid_list
+                  0x002e24                  _m2m_wifi_wps
+                  0x002e5c                  _m2m_wifi_wps_disable
+                  0x002e7a                  _m2m_wifi_req_client_ctrl
+                  0x002e8a                  _m2m_wifi_req_server_init
+                  0x002e9a                  _m2m_wifi_p2p
+                  0x002ee2                  _m2m_wifi_p2p_disconnect
+                  0x002f00                  _m2m_wifi_enable_ap
+                  0x002f30                  _m2m_wifi_set_gains
+                  0x002f5e                  _m2m_wifi_disable_ap
+                  0x002f7c                  _m2m_wifi_req_curr_rssi
+                  0x002f9a                  _m2m_wifi_send_ethernet_pkt
+                  0x002fe2                  _m2m_wifi_get_otp_mac_address
+                  0x003016                  _m2m_wifi_get_mac_address
+                  0x003042                  _m2m_wifi_req_scan_result
+                  0x00306c                  _m2m_wifi_get_num_ap_found
+                  0x003074                  _m2m_wifi_get_sleep_mode
+                  0x00307c                  _m2m_wifi_set_sleep_mode
+                  0x0030b6                  _m2m_wifi_request_sleep
+                  0x0030f0                  _m2m_wifi_set_device_name
+                  0x00314a                  _m2m_wifi_get_firmware_version
+                  0x00316e                  _m2m_wifi_start_provision_mode
+                  0x0031f6                  _m2m_wifi_stop_provision_mode
+                  0x00320c                  _m2m_wifi_get_connection_info
+                  0x003222                  _m2m_wifi_set_sytem_time
+                  0x00323c                  _m2m_wifi_get_sytem_time
+                  0x003252                  _m2m_wifi_enable_sntp
+                  0x00327c                  _m2m_wifi_set_power_profile
+                  0x0032a6                  _m2m_wifi_set_tx_power
+                  0x0032d0                  _m2m_wifi_enable_firmware_logs
+                  0x0032fa                  _m2m_wifi_set_battery_voltage
+                  0x00332a                  _m2m_wifi_prng_get_random_bytes
+                  0x003d8a                  _nm_spi_reset
+                  0x003da2                  _nm_spi_init
+                  0x003e5a                  _nm_spi_deinit
+                  0x003e64                  _nm_spi_read_reg
+                  0x003e78                  _nm_spi_read_reg_with_ret
+                  0x003ea4                  _nm_spi_write_reg
+                  0x003ed0                  _nm_spi_read_block
+                  0x003f04                  _nm_spi_write_block
+                  0x00470a                  _spi_flash_enable
+                  0x0047dc                  _spi_flash_read
+                  0x004866                  _spi_flash_write
+                  0x004994                  _spi_flash_erase
+                  0x004a46                  _spi_flash_get_size
+                  0x004aaa                  _chip_apply_conf
+                  0x004b12                  _chip_idle
+                  0x004b62                  _enable_interrupts
+                  0x004bda                  _cpu_start
+                  0x004cd2                  _nmi_get_chipid
+                  0x004dc0                  _nmi_get_rfrevid
+                  0x004ddc                  _restore_pmu_settings_after_global_reset
+                  0x004e14                  _nmi_update_pll
+                  0x004e50                  _nmi_set_sys_clk_src_to_xo
+                  0x004e6a                  _chip_sleep
+                  0x004f64                  _chip_wake
+                  0x00506c                  _cpu_halt
+                  0x005122                  _chip_reset_and_cpu_halt
+                  0x00514e                  _chip_reset
+                  0x00516a                  _wait_for_bootrom
+                  0x0052a2                  _wait_for_firmware_start
+                  0x00534e                  _chip_deinit
+                  0x0053a2                  _nmi_get_otp_mac_address
+                  0x005480                  _nmi_get_mac_address
+                  0x00551e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
+                  0x005572                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
+                  0x005582                  _hif_chip_wake
+                  0x0055c2                  _hif_set_sleep_mode
+                  0x0055ce                  _hif_get_sleep_mode
+                  0x0055d8                  _hif_chip_sleep_sc
+                  0x0055f2                  _hif_chip_sleep
+                  0x005624                  _hif_init
+                  0x005642                  _hif_deinit
+                  0x005660                  _hif_send
+                  0x005b26                  _hif_handle_isr
+                  0x005b56                  _hif_receive
+                  0x005c34                  _hif_register_cb
+                  0x005cb0                  _nm_get_firmware_info
+                  0x005df6                  _nm_get_firmware_full_info
+                  0x005f6a                  _nm_get_ota_firmware_info
+                  0x0060c8                  _nm_drv_init_download_mode
+                  0x006118                  _nm_drv_init
+                  0x0061ae                  _nm_drv_deinit
+                  0x0061e8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
+                  0x006286                  _m2m_ssl_handshake_rsp
+                  0x0062b8                  _m2m_ssl_send_certs_to_winc
+                  0x0062e4                  _m2m_ssl_retrieve_cert
+                  0x006482                  _m2m_ssl_retrieve_hash
+                  0x0064de                  _m2m_ssl_stop_processing_certs
+                  0x0064ee                  _m2m_ssl_ecc_process_done
+                  0x0064f8                  _m2m_ssl_set_active_ciphersuites
+                  0x006524                  _m2m_ssl_init
+                  0x006546                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
+                  0x0065d0                  _m2m_ota_init
+                  0x006606                  _m2m_ota_notif_set_url
+                  0x006638                  _m2m_ota_notif_check_for_update
+                  0x006656                  _m2m_ota_notif_sched
+                  0x006678                  _m2m_ota_start_update
+                  0x0066aa                  _m2m_ota_start_update_crt
+                  0x0066dc                  _m2m_ota_rollback
+                  0x0066fa                  _m2m_ota_rollback_crt
+                  0x006718                  _m2m_ota_abort
+                  0x006736                  _m2m_ota_switch_firmware
+                  0x006754                  _m2m_ota_switch_crt
+                  0x006772                  _m2m_ota_get_firmware_version
+                  0x006796                  _nm_bus_iface_init
+                  0x0067ae                  _nm_bus_iface_deinit
+                  0x0067be                  _nm_bus_reset
+                  0x0067ca                  _nm_bus_iface_reconfigure
+                  0x0067da                  _nm_read_reg
+                  0x0067e6                  _nm_read_reg_with_ret
+                  0x0067fa                  _nm_write_reg
+                  0x00682a                  _nm_read_block
+                  0x0068fc                  _nm_write_block
+                  0x0069b2                  _m2m_memcpy
+                  0x0069fc                  _m2m_checksum
+                  0x006a36                  _m2m_memset
+                  0x006a72                  _m2m_strlen
+                  0x006a9a                  _m2m_strncmp
+                  0x006afc                  _m2m_strstr
+                  0x006b70                  _m2m_memcmp
+                  0x006bc6                  _spi1_close
+                  0x006bce                  _spi1_open
+                  0x006c24                  _spi1_exchangeByte
+                  0x006c3e                  _spi1_exchangeBlock
+                  0x006c7a                  _spi1_writeBlock
+                  0x006cb2                  _spi1_readBlock
+                  0x006cec                  _spi1_writeByte
+                  0x006cf8                  _spi1_readByte
+                  0x006d02                  _spi1_isr
+                  0x006d1e                  _spi1_setSpiISR
+                  0x006dea                  _nm_bus_init
+                  0x006e0e                  _nm_bus_ioctl
+                  0x006e54                  _nm_bus_deinit
+                  0x006e5c                  _nm_bus_reinit
+                  0x006e66                  build/default/production/main.o:_wifi_cb
+                  0x006ec0                  _main
+                  0x006f04                  _wifi_connect
+                  0x006f3c                  _init_gpio
+                  0x007008                  _PIN_MANAGER_Initialize
+                  0x0070a6                  _INT_SetInterruptHandler
+                  0x0070b6                  _INT_SetIOCInterruptHandler
+                  0x0070c2                  _UART1_Initialize
+                  0x0070d8                  _UART1_Read
+                  0x0070f6                  _UART1_Write
+                  0x00710e                  _UART1_IsRxReady
+                  0x007126                  _UART1_IsTxReady
+                  0x007148                  _UART1_IsTxDone
+                  0x007160                  _UART1_StatusGet
+                  0x007168                  _UART1_Enable
+                  0x007172                  _UART1_Disable
+                  0x007188                  _nm_bsp_init
+                  0x007196                  _nm_bsp_deinit
+                  0x00719e                  _nm_bsp_reset
+                  0x0071be                  _nm_bsp_sleep
+                  0x0071e8                  _nm_bsp_register_isr
+                  0x0071fc                  _nm_bsp_interrupt_ctrl
+                  0x007210                  _DELAY_milliseconds
+                  0x007232                  _DELAY_microseconds
+                  0x007266                  _CLOCK_Initialize
+                  0x0072ac                  _WINC_open
+                  0x0072b6                  _spi_master_open
+                  0x0072ca                  ___delay32
+                  0x0072fe                  _INTERRUPT_Initialize
+                  0x00730e                  _SYSTEM_Initialize
                   0x015f00                  __FSEC.sec
 
 External Symbols in Program Memory (by name):
 
-                  0x006a4e                  _CLOCK_Initialize
-                  0x006a1a                  _DELAY_microseconds
-                  0x0069f8                  _DELAY_milliseconds
-                  0x006ae6                  _INTERRUPT_Initialize
-                  0x00676a                  _INT_SetIOCInterruptHandler
-                  0x00675a                  _INT_SetInterruptHandler
-                  0x0066bc                  _PIN_MANAGER_Initialize
-                  0x006af6                  _SYSTEM_Initialize
-                  0x00073c                  _Socket_ReadSocketData
-                  0x006826                  _UART1_Disable
-                  0x00681c                  _UART1_Enable
-                  0x006776                  _UART1_Initialize
-                  0x0067c2                  _UART1_IsRxReady
-                  0x0067fc                  _UART1_IsTxDone
-                  0x0067da                  _UART1_IsTxReady
-                  0x00678c                  _UART1_Read
-                  0x006814                  _UART1_StatusGet
-                  0x0067aa                  _UART1_Write
-                  0x006a94                  _WINC_open
+                  0x007266                  _CLOCK_Initialize
+                  0x007232                  _DELAY_microseconds
+                  0x007210                  _DELAY_milliseconds
+                  0x0072fe                  _INTERRUPT_Initialize
+                  0x0070b6                  _INT_SetIOCInterruptHandler
+                  0x0070a6                  _INT_SetInterruptHandler
+                  0x007008                  _PIN_MANAGER_Initialize
+                  0x00730e                  _SYSTEM_Initialize
+                  0x000ee6                  _Socket_ReadSocketData
+                  0x007172                  _UART1_Disable
+                  0x007168                  _UART1_Enable
+                  0x0070c2                  _UART1_Initialize
+                  0x00710e                  _UART1_IsRxReady
+                  0x007148                  _UART1_IsTxDone
+                  0x007126                  _UART1_IsTxReady
+                  0x0070d8                  _UART1_Read
+                  0x007160                  _UART1_StatusGet
+                  0x0070f6                  _UART1_Write
+                  0x0072ac                  _WINC_open
                   0x00029a                  __AddressError
                   0x000334                  __DefaultInterrupt
                   0x015f00                  __FSEC.sec
@@ -491,214 +541,232 @@ External Symbols in Program Memory (by name):
                   0x0002da                  __NVMError
                   0x000258                  __OscillatorFail
                   0x000278                  __StackError
-                  0x006ab2                  ___delay32
-                  0x00058e                  ___init_stdio
+                  0x0072ca                  ___delay32
+                  0x000c7c                  ___extendsfdf2
+                  0x00059e                  ___fmt_s
+                  0x0006b0                  ___fmt_state
+                  0x000c76                  ___init_stdio
                   0x0003e2                  ___init_stdout
+                  0x000ce4                  ___mulp32eds3
+                  0x000ce4                  ___mulp32peds3
+                  0x000ce4                  ___mulsi3
                   0x000446                  ___out
+                  0x000636                  ___pad
+                  0x000b10                  ___pop_float
+                  0x000b4e                  ___pop_int
+                  0x000c00                  ___pop_ptr
+                  0x00099c                  ___printf_core
                   0x00055a                  ___putc_unbuffered
+                  0x00059c                  ___sio_printf_0
                   0x000456                  ___stdio_close
                   0x00049e                  ___stdio_close_rw
+                  0x000b0e                  ___tolower_l
                   0x000394                  ___udivsi3
                   0x00038e                  ___umodsi3
+                  0x0005f2                  ___vfprintf
                   0x000152                  __data_init
                   0x000152                  __data_init_da
+                  0x000cba                  __funpack
                   0x00013c                  __psv_init
                   0x000100                  __resetPRI
-                  0x001048                  _accept
-                  0x000f1e                  _bind
-                  0x004300                  _chip_apply_conf
-                  0x004ba4                  _chip_deinit
-                  0x004368                  _chip_idle
-                  0x0049a4                  _chip_reset
-                  0x004978                  _chip_reset_and_cpu_halt
-                  0x0046c0                  _chip_sleep
-                  0x0047ba                  _chip_wake
-                  0x00144c                  _close
-                  0x001082                  _connect
-                  0x0048c2                  _cpu_halt
-                  0x004430                  _cpu_start
-                  0x0043b8                  _enable_interrupts
+                  0x0017f2                  _accept
+                  0x000ab6                  _atoi
+                  0x0016c8                  _bind
+                  0x004aaa                  _chip_apply_conf
+                  0x00534e                  _chip_deinit
+                  0x004b12                  _chip_idle
+                  0x00514e                  _chip_reset
+                  0x005122                  _chip_reset_and_cpu_halt
+                  0x004e6a                  _chip_sleep
+                  0x004f64                  _chip_wake
+                  0x001bf6                  _close
+                  0x00182c                  _connect
+                  0x00506c                  _cpu_halt
+                  0x004bda                  _cpu_start
+                  0x004b62                  _enable_interrupts
                   0x000502                  _fputs
                   0x00052e                  _fwrite
-                  0x001700                  _gethostbyname
-                  0x001a52                  _getsockopt
-                  0x004e48                  _hif_chip_sleep
-                  0x004e2e                  _hif_chip_sleep_sc
-                  0x004dd8                  _hif_chip_wake
-                  0x004e98                  _hif_deinit
-                  0x004e24                  _hif_get_sleep_mode
-                  0x00537c                  _hif_handle_isr
-                  0x004e7a                  _hif_init
-                  0x0053ac                  _hif_receive
-                  0x00548a                  _hif_register_cb
-                  0x004eb6                  _hif_send
-                  0x004e18                  _hif_set_sleep_mode
-                  0x006956                  _init_gpio
-                  0x000fd6                  _listen
-                  0x006252                  _m2m_checksum
-                  0x0063c6                  _m2m_memcmp
-                  0x006208                  _m2m_memcpy
-                  0x00628c                  _m2m_memset
-                  0x005f6e                  _m2m_ota_abort
-                  0x005fc8                  _m2m_ota_get_firmware_version
-                  0x005e26                  _m2m_ota_init
-                  0x005e8e                  _m2m_ota_notif_check_for_update
-                  0x005eac                  _m2m_ota_notif_sched
-                  0x005e5c                  _m2m_ota_notif_set_url
-                  0x005f32                  _m2m_ota_rollback
-                  0x005f50                  _m2m_ota_rollback_crt
-                  0x005ece                  _m2m_ota_start_update
-                  0x005f00                  _m2m_ota_start_update_crt
-                  0x005faa                  _m2m_ota_switch_crt
-                  0x005f8c                  _m2m_ota_switch_firmware
-                  0x001a6c                  _m2m_ping_req
-                  0x005d44                  _m2m_ssl_ecc_process_done
-                  0x005adc                  _m2m_ssl_handshake_rsp
-                  0x005d7a                  _m2m_ssl_init
-                  0x005b3a                  _m2m_ssl_retrieve_cert
-                  0x005cd8                  _m2m_ssl_retrieve_hash
-                  0x005b0e                  _m2m_ssl_send_certs_to_winc
-                  0x005d4e                  _m2m_ssl_set_active_ciphersuites
-                  0x005d34                  _m2m_ssl_stop_processing_certs
-                  0x0062c8                  _m2m_strlen
-                  0x0062f0                  _m2m_strncmp
-                  0x006352                  _m2m_strstr
-                  0x002066                  _m2m_wifi_connect
-                  0x002094                  _m2m_wifi_connect_sc
-                  0x002050                  _m2m_wifi_default_connect
-                  0x002034                  _m2m_wifi_deinit
-                  0x0027b4                  _m2m_wifi_disable_ap
-                  0x002362                  _m2m_wifi_disconnect
-                  0x001dd2                  _m2m_wifi_download_mode
-                  0x002756                  _m2m_wifi_enable_ap
-                  0x0023f6                  _m2m_wifi_enable_dhcp
-                  0x002b26                  _m2m_wifi_enable_firmware_logs
-                  0x002aa8                  _m2m_wifi_enable_sntp
-                  0x002a62                  _m2m_wifi_get_connection_info
-                  0x0029a0                  _m2m_wifi_get_firmware_version
-                  0x00286c                  _m2m_wifi_get_mac_address
-                  0x0028c2                  _m2m_wifi_get_num_ap_found
-                  0x002838                  _m2m_wifi_get_otp_mac_address
-                  0x0028ca                  _m2m_wifi_get_sleep_mode
-                  0x002a92                  _m2m_wifi_get_sytem_time
-                  0x002046                  _m2m_wifi_handle_events
-                  0x001fcc                  _m2m_wifi_init
-                  0x0026f0                  _m2m_wifi_p2p
-                  0x002738                  _m2m_wifi_p2p_disconnect
-                  0x002b80                  _m2m_wifi_prng_get_random_bytes
-                  0x0026d0                  _m2m_wifi_req_client_ctrl
-                  0x0027d2                  _m2m_wifi_req_curr_rssi
-                  0x002898                  _m2m_wifi_req_scan_result
-                  0x0026e0                  _m2m_wifi_req_server_init
-                  0x0023e4                  _m2m_wifi_request_dhcp_client
-                  0x0023ec                  _m2m_wifi_request_dhcp_server
-                  0x0024da                  _m2m_wifi_request_scan
-                  0x00253c                  _m2m_wifi_request_scan_passive
-                  0x0025a8                  _m2m_wifi_request_scan_ssid_list
-                  0x00290c                  _m2m_wifi_request_sleep
-                  0x001fa6                  _m2m_wifi_send_crl
-                  0x0027f0                  _m2m_wifi_send_ethernet_pkt
-                  0x002b50                  _m2m_wifi_set_battery_voltage
-                  0x00243a                  _m2m_wifi_set_cust_InfoElement
-                  0x002946                  _m2m_wifi_set_device_name
-                  0x002786                  _m2m_wifi_set_gains
-                  0x002420                  _m2m_wifi_set_lsn_int
-                  0x002378                  _m2m_wifi_set_mac_address
-                  0x002ad2                  _m2m_wifi_set_power_profile
-                  0x002480                  _m2m_wifi_set_scan_options
-                  0x0024b0                  _m2m_wifi_set_scan_region
-                  0x0028d2                  _m2m_wifi_set_sleep_mode
-                  0x00239e                  _m2m_wifi_set_static_ip
-                  0x002a78                  _m2m_wifi_set_sytem_time
-                  0x002afc                  _m2m_wifi_set_tx_power
-                  0x0029c4                  _m2m_wifi_start_provision_mode
-                  0x002a4c                  _m2m_wifi_stop_provision_mode
-                  0x00267a                  _m2m_wifi_wps
-                  0x0026b2                  _m2m_wifi_wps_disable
-                  0x0068da                  _main
+                  0x001eaa                  _gethostbyname
+                  0x0021fc                  _getsockopt
+                  0x0055f2                  _hif_chip_sleep
+                  0x0055d8                  _hif_chip_sleep_sc
+                  0x005582                  _hif_chip_wake
+                  0x005642                  _hif_deinit
+                  0x0055ce                  _hif_get_sleep_mode
+                  0x005b26                  _hif_handle_isr
+                  0x005624                  _hif_init
+                  0x005b56                  _hif_receive
+                  0x005c34                  _hif_register_cb
+                  0x005660                  _hif_send
+                  0x0055c2                  _hif_set_sleep_mode
+                  0x006f3c                  _init_gpio
+                  0x001780                  _listen
+                  0x0069fc                  _m2m_checksum
+                  0x006b70                  _m2m_memcmp
+                  0x0069b2                  _m2m_memcpy
+                  0x006a36                  _m2m_memset
+                  0x006718                  _m2m_ota_abort
+                  0x006772                  _m2m_ota_get_firmware_version
+                  0x0065d0                  _m2m_ota_init
+                  0x006638                  _m2m_ota_notif_check_for_update
+                  0x006656                  _m2m_ota_notif_sched
+                  0x006606                  _m2m_ota_notif_set_url
+                  0x0066dc                  _m2m_ota_rollback
+                  0x0066fa                  _m2m_ota_rollback_crt
+                  0x006678                  _m2m_ota_start_update
+                  0x0066aa                  _m2m_ota_start_update_crt
+                  0x006754                  _m2m_ota_switch_crt
+                  0x006736                  _m2m_ota_switch_firmware
+                  0x002216                  _m2m_ping_req
+                  0x0064ee                  _m2m_ssl_ecc_process_done
+                  0x006286                  _m2m_ssl_handshake_rsp
+                  0x006524                  _m2m_ssl_init
+                  0x0062e4                  _m2m_ssl_retrieve_cert
+                  0x006482                  _m2m_ssl_retrieve_hash
+                  0x0062b8                  _m2m_ssl_send_certs_to_winc
+                  0x0064f8                  _m2m_ssl_set_active_ciphersuites
+                  0x0064de                  _m2m_ssl_stop_processing_certs
+                  0x006a72                  _m2m_strlen
+                  0x006a9a                  _m2m_strncmp
+                  0x006afc                  _m2m_strstr
+                  0x002810                  _m2m_wifi_connect
+                  0x00283e                  _m2m_wifi_connect_sc
+                  0x0027fa                  _m2m_wifi_default_connect
+                  0x0027de                  _m2m_wifi_deinit
+                  0x002f5e                  _m2m_wifi_disable_ap
+                  0x002b0c                  _m2m_wifi_disconnect
+                  0x00257c                  _m2m_wifi_download_mode
+                  0x002f00                  _m2m_wifi_enable_ap
+                  0x002ba0                  _m2m_wifi_enable_dhcp
+                  0x0032d0                  _m2m_wifi_enable_firmware_logs
+                  0x003252                  _m2m_wifi_enable_sntp
+                  0x00320c                  _m2m_wifi_get_connection_info
+                  0x00314a                  _m2m_wifi_get_firmware_version
+                  0x003016                  _m2m_wifi_get_mac_address
+                  0x00306c                  _m2m_wifi_get_num_ap_found
+                  0x002fe2                  _m2m_wifi_get_otp_mac_address
+                  0x003074                  _m2m_wifi_get_sleep_mode
+                  0x00323c                  _m2m_wifi_get_sytem_time
+                  0x0027f0                  _m2m_wifi_handle_events
+                  0x002776                  _m2m_wifi_init
+                  0x002e9a                  _m2m_wifi_p2p
+                  0x002ee2                  _m2m_wifi_p2p_disconnect
+                  0x00332a                  _m2m_wifi_prng_get_random_bytes
+                  0x002e7a                  _m2m_wifi_req_client_ctrl
+                  0x002f7c                  _m2m_wifi_req_curr_rssi
+                  0x003042                  _m2m_wifi_req_scan_result
+                  0x002e8a                  _m2m_wifi_req_server_init
+                  0x002b8e                  _m2m_wifi_request_dhcp_client
+                  0x002b96                  _m2m_wifi_request_dhcp_server
+                  0x002c84                  _m2m_wifi_request_scan
+                  0x002ce6                  _m2m_wifi_request_scan_passive
+                  0x002d52                  _m2m_wifi_request_scan_ssid_list
+                  0x0030b6                  _m2m_wifi_request_sleep
+                  0x002750                  _m2m_wifi_send_crl
+                  0x002f9a                  _m2m_wifi_send_ethernet_pkt
+                  0x0032fa                  _m2m_wifi_set_battery_voltage
+                  0x002be4                  _m2m_wifi_set_cust_InfoElement
+                  0x0030f0                  _m2m_wifi_set_device_name
+                  0x002f30                  _m2m_wifi_set_gains
+                  0x002bca                  _m2m_wifi_set_lsn_int
+                  0x002b22                  _m2m_wifi_set_mac_address
+                  0x00327c                  _m2m_wifi_set_power_profile
+                  0x002c2a                  _m2m_wifi_set_scan_options
+                  0x002c5a                  _m2m_wifi_set_scan_region
+                  0x00307c                  _m2m_wifi_set_sleep_mode
+                  0x002b48                  _m2m_wifi_set_static_ip
+                  0x003222                  _m2m_wifi_set_sytem_time
+                  0x0032a6                  _m2m_wifi_set_tx_power
+                  0x00316e                  _m2m_wifi_start_provision_mode
+                  0x0031f6                  _m2m_wifi_stop_provision_mode
+                  0x002e24                  _m2m_wifi_wps
+                  0x002e5c                  _m2m_wifi_wps_disable
+                  0x006ec0                  _main
                   0x0003b4                  _memcpy
-                  0x00697e                  _nm_bsp_deinit
-                  0x006970                  _nm_bsp_init
-                  0x0069e4                  _nm_bsp_interrupt_ctrl
-                  0x0069d0                  _nm_bsp_register_isr
-                  0x006986                  _nm_bsp_reset
-                  0x0069a6                  _nm_bsp_sleep
-                  0x0066aa                  _nm_bus_deinit
-                  0x006004                  _nm_bus_iface_deinit
-                  0x005fec                  _nm_bus_iface_init
-                  0x006020                  _nm_bus_iface_reconfigure
-                  0x006640                  _nm_bus_init
-                  0x006664                  _nm_bus_ioctl
-                  0x0066b2                  _nm_bus_reinit
-                  0x006014                  _nm_bus_reset
-                  0x005a04                  _nm_drv_deinit
-                  0x00596e                  _nm_drv_init
-                  0x00591e                  _nm_drv_init_download_mode
-                  0x00564c                  _nm_get_firmware_full_info
-                  0x005506                  _nm_get_firmware_info
-                  0x0057c0                  _nm_get_ota_firmware_info
-                  0x006080                  _nm_read_block
-                  0x006030                  _nm_read_reg
-                  0x00603c                  _nm_read_reg_with_ret
-                  0x0036b0                  _nm_spi_deinit
-                  0x0035f8                  _nm_spi_init
-                  0x003726                  _nm_spi_read_block
-                  0x0036ba                  _nm_spi_read_reg
-                  0x0036ce                  _nm_spi_read_reg_with_ret
-                  0x0035e0                  _nm_spi_reset
-                  0x00375a                  _nm_spi_write_block
-                  0x0036fa                  _nm_spi_write_reg
-                  0x006152                  _nm_write_block
-                  0x006050                  _nm_write_reg
-                  0x004528                  _nmi_get_chipid
-                  0x004cd6                  _nmi_get_mac_address
-                  0x004bf8                  _nmi_get_otp_mac_address
-                  0x004616                  _nmi_get_rfrevid
-                  0x001632                  _nmi_inet_addr
-                  0x0046a6                  _nmi_set_sys_clk_src_to_xo
-                  0x00466a                  _nmi_update_pll
+                  0x0009dc                  _memset
+                  0x007196                  _nm_bsp_deinit
+                  0x007188                  _nm_bsp_init
+                  0x0071fc                  _nm_bsp_interrupt_ctrl
+                  0x0071e8                  _nm_bsp_register_isr
+                  0x00719e                  _nm_bsp_reset
+                  0x0071be                  _nm_bsp_sleep
+                  0x006e54                  _nm_bus_deinit
+                  0x0067ae                  _nm_bus_iface_deinit
+                  0x006796                  _nm_bus_iface_init
+                  0x0067ca                  _nm_bus_iface_reconfigure
+                  0x006dea                  _nm_bus_init
+                  0x006e0e                  _nm_bus_ioctl
+                  0x006e5c                  _nm_bus_reinit
+                  0x0067be                  _nm_bus_reset
+                  0x0061ae                  _nm_drv_deinit
+                  0x006118                  _nm_drv_init
+                  0x0060c8                  _nm_drv_init_download_mode
+                  0x005df6                  _nm_get_firmware_full_info
+                  0x005cb0                  _nm_get_firmware_info
+                  0x005f6a                  _nm_get_ota_firmware_info
+                  0x00682a                  _nm_read_block
+                  0x0067da                  _nm_read_reg
+                  0x0067e6                  _nm_read_reg_with_ret
+                  0x003e5a                  _nm_spi_deinit
+                  0x003da2                  _nm_spi_init
+                  0x003ed0                  _nm_spi_read_block
+                  0x003e64                  _nm_spi_read_reg
+                  0x003e78                  _nm_spi_read_reg_with_ret
+                  0x003d8a                  _nm_spi_reset
+                  0x003f04                  _nm_spi_write_block
+                  0x003ea4                  _nm_spi_write_reg
+                  0x0068fc                  _nm_write_block
+                  0x0067fa                  _nm_write_reg
+                  0x004cd2                  _nmi_get_chipid
+                  0x005480                  _nmi_get_mac_address
+                  0x0053a2                  _nmi_get_otp_mac_address
+                  0x004dc0                  _nmi_get_rfrevid
+                  0x001ddc                  _nmi_inet_addr
+                  0x004e50                  _nmi_set_sys_clk_src_to_xo
+                  0x004e14                  _nmi_update_pll
                   0x00058a                  _putc
                   0x0003c2                  _puts
-                  0x00132c                  _recv
-                  0x00151a                  _recvfrom
-                  0x000dac                  _registerSocketCallback
-                  0x004632                  _restore_pmu_settings_after_global_reset
-                  0x001152                  _send
-                  0x001240                  _sendto
-                  0x00199c                  _setsockopt
-                  0x000dc2                  _socket
-                  0x000d90                  _socketDeinit
-                  0x000d6e                  _socketInit
-                  0x00641c                  _spi1_close
-                  0x006494                  _spi1_exchangeBlock
-                  0x00647a                  _spi1_exchangeByte
-                  0x006558                  _spi1_isr
-                  0x006424                  _spi1_open
-                  0x006508                  _spi1_readBlock
-                  0x00654e                  _spi1_readByte
-                  0x006574                  _spi1_setSpiISR
-                  0x0064d0                  _spi1_writeBlock
-                  0x006542                  _spi1_writeByte
-                  0x00071c                  _spiMaster
-                  0x003f60                  _spi_flash_enable
-                  0x0041ea                  _spi_flash_erase
-                  0x00429c                  _spi_flash_get_size
-                  0x004032                  _spi_flash_read
-                  0x0040bc                  _spi_flash_write
-                  0x006a9e                  _spi_master_open
-                  0x001ac8                  _sslEnableCertExpirationCheck
+                  0x001ad6                  _recv
+                  0x001cc4                  _recvfrom
+                  0x001556                  _registerSocketCallback
+                  0x004ddc                  _restore_pmu_settings_after_global_reset
+                  0x0018fc                  _send
+                  0x0019ea                  _sendto
+                  0x002146                  _setsockopt
+                  0x00156c                  _socket
+                  0x00153a                  _socketDeinit
+                  0x001518                  _socketInit
+                  0x006bc6                  _spi1_close
+                  0x006c3e                  _spi1_exchangeBlock
+                  0x006c24                  _spi1_exchangeByte
+                  0x006d02                  _spi1_isr
+                  0x006bce                  _spi1_open
+                  0x006cb2                  _spi1_readBlock
+                  0x006cf8                  _spi1_readByte
+                  0x006d1e                  _spi1_setSpiISR
+                  0x006c7a                  _spi1_writeBlock
+                  0x006cec                  _spi1_writeByte
+                  0x000ec6                  _spiMaster
+                  0x00470a                  _spi_flash_enable
+                  0x004994                  _spi_flash_erase
+                  0x004a46                  _spi_flash_get_size
+                  0x0047dc                  _spi_flash_read
+                  0x004866                  _spi_flash_write
+                  0x0072b6                  _spi_master_open
+                  0x002272                  _sslEnableCertExpirationCheck
                   0x0003ea                  _strlen
-                  0x0049c0                  _wait_for_bootrom
-                  0x004af8                  _wait_for_firmware_start
-                  0x00691e                  _wifi_connect
+                  0x000b02                  _tolower
+                  0x00516a                  _wait_for_bootrom
+                  0x0052a2                  _wait_for_firmware_start
+                  0x006f04                  _wifi_connect
                   0x000356                  _write
-                  0x0068ce                  build/default/production/main.o:_wifi_cb
-                  0x004d74                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
-                  0x004dc8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
-                  0x005d9c                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
-                  0x005a3e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
-                  0x001aec                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
-                  0x0008b6                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
+                  0x006e66                  build/default/production/main.o:_wifi_cb
+                  0x00551e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
+                  0x005572                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
+                  0x006546                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
+                  0x0061e8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
+                  0x002296                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
+                  0x001060                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
 
 Memory Configuration
 
@@ -773,7 +841,7 @@ LOAD c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libfx-elf.a
                   0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
                   0x000003          0x2 SHORT 0x0
 
-.text             0x000100        0x498
+.text             0x000100        0xbf4
  *(.init)
  .init            0x000100         0x4c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
                   0x000100                  __resetPRI
@@ -859,14 +927,85 @@ LOAD c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libfx-elf.a
                   0x00058a                  _fputc
                   0x00058a                  _putc_unlocked
                   0x00058a                  __IO_putc
- .libc.__dummy    0x00058c          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
-                  0x00058c                  ___init_stderr
-                  0x00058c                  ___init_stdin
+ .libc.__wrap_printf
+                  0x00058c         0x10 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o)
+                  0x00058c                  __printf_0
+                  0x00058c                  __dprintf_0
+ .libc.__sio_printf_0
+                  0x00059c          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o)
+                  0x00059c                  ___sio_printf_0
+ .libc.__fmt_s    0x00059e         0x54 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
+                  0x00059e                  ___fmt_0_needed
+                  0x00059e                  ___fmt_s_needed
+                  0x00059e                  ___fmt_s
+ .libc.__vfprintf
+                  0x0005f2         0x1c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
+                  0x0005f2                  ___vfprintf
+ .libc.__string_out
+                  0x00060e         0x28 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__pad      0x000636         0x74 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x000636                  ___pad
+ .libc.__dummy_fmt3
+                  0x0006aa          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x0006aa                  ___fmt_u
+                  0x0006aa                  ___fmt_o
+                  0x0006aa                  ___fmt_d
+ .libc.__dummy_fmt4
+                  0x0006ac          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x0006ac                  ___fmt_a
+                  0x0006ac                  ___fmt_fp
+                  0x0006ac                  ___fmt_x
+ .libc.__dummy_fmts
+                  0x0006ae          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__fmt_state
+                  0x0006b0         0x2c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x0006b0                  ___fmt_state
+ .libc.vfpfcnvrt.clone.0
+                  0x0006dc        0x2c0 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ .libc.__printf_core
+                  0x00099c         0x40 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+                  0x00099c                  ___printf_core
+ .libc.memset     0x0009dc         0xc6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+                  0x0009dc                  _memset
+ .libc.__isspace
+                  0x000aa2         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+ .libc.atoi       0x000ab6         0x4c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+                  0x000ab6                  _atoi
+ .libc.tolower    0x000b02          0xc c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                  0x000b02                  _tolower
+ .libc.__tolower_l
+                  0x000b0e          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+                  0x000b0e                  ___tolower_l
+                  0x000b0e                  _tolower_l
+ .libc.__pop_float
+                  0x000b10         0x3e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_lo)
+                  0x000b10                  ___pop_float
+                  0x000b10                  ___pop_float_needed
+ .libc.__pop_int
+                  0x000b4e         0xb2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_lo)
+                  0x000b4e                  ___pop_int
+                  0x000b4e                  ___pop_int_needed
+ .libc.__pop_ptr
+                  0x000c00         0x74 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_lo)
+                  0x000c00                  ___pop_ptr_needed
+                  0x000c00                  ___pop_ptr
+ .libc.__dummy    0x000c74          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                  0x000c74                  ___init_stderr
+                  0x000c74                  ___init_stdin
  .libc.__init_stdio
-                  0x00058e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
-                  0x00058e                  ___init_stdio
-                  0x00058e                  ___init_stdio_needed
- .libc.dolseek    0x000594          0x4 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(lseekda.Meo)
+                  0x000c76          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                  0x000c76                  ___init_stdio
+                  0x000c76                  ___init_stdio_needed
+ .libm.extendsfdf2
+                  0x000c7c         0x3e c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+                  0x000c7c                  ___extendsfdf2
+ .libm.funpack    0x000cba         0x2a c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+                  0x000cba                  __funpack
+ .libm.mulsi3     0x000ce4          0xc c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+                  0x000ce4                  ___mulp32peds3
+                  0x000ce4                  ___mulsi3
+                  0x000ce4                  ___mulp32eds3
+ .libc.dolseek    0x000cf0          0x4 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(lseekda.Meo)
 
 usercode
  *(usercode)
@@ -903,7 +1042,7 @@ __FDEVOPT1
 .comment
  *(.comment)
 
-.debug_info       0x000000       0xf786
+.debug_info       0x000000      0x100da
  *(.debug_info)
  .debug_info      0x000000        0x3ae build/default/production/mcc_generated_files/drivers/spi_master.o
  .debug_info      0x0003ae        0x6b8 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
@@ -930,13 +1069,16 @@ __FDEVOPT1
  .debug_info      0x00d3dd        0x341 build/default/production/mcc_generated_files/system.o
  .debug_info      0x00d71e        0xbbf build/default/production/mcc_generated_files/spi1_driver.o
  .debug_info      0x00e2dd        0x1c8 build/default/production/mcc_generated_files/delay.o
- .debug_info      0x00e4a5        0xa6d build/default/production/main.o
- .debug_info      0x00ef12        0x75a build/default/production/mcc_generated_files/uart1.o
- .debug_info      0x00f66c         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
- .debug_info      0x00f6f9         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_info      0x00e4a5       0x1218 build/default/production/main.o
+ .debug_info      0x00f6bd        0x75a build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x00fe17         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
+ .debug_info      0x00fea4         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_info      0x00ff31         0x90 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_info      0x00ffc1         0x8d c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_info      0x01004e         0x8c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
  *(.gnu.linkonce.wi.*)
 
-.debug_abbrev     0x000000       0x1da6
+.debug_abbrev     0x000000       0x1de2
  *(.debug_abbrev)
  .debug_abbrev    0x000000        0x102 build/default/production/mcc_generated_files/drivers/spi_master.o
  .debug_abbrev    0x000102         0xf9 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
@@ -969,8 +1111,11 @@ __FDEVOPT1
  .debug_abbrev    0x001c4d        0x131 build/default/production/mcc_generated_files/uart1.o
  .debug_abbrev    0x001d7e         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
  .debug_abbrev    0x001d92         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_abbrev    0x001da6         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_abbrev    0x001dba         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_abbrev    0x001dce         0x14 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
 
-.debug_line       0x000000       0x2b55
+.debug_line       0x000000       0x2c49
  *(.debug_line)
  .debug_line      0x000000         0xec build/default/production/mcc_generated_files/drivers/spi_master.o
  .debug_line      0x0000ec        0x196 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
@@ -999,12 +1144,15 @@ __FDEVOPT1
  .debug_line      0x002449        0x11f build/default/production/mcc_generated_files/system.o
  .debug_line      0x002568        0x185 build/default/production/mcc_generated_files/spi1_driver.o
  .debug_line      0x0026ed         0xa6 build/default/production/mcc_generated_files/delay.o
- .debug_line      0x002793        0x1ed build/default/production/main.o
- .debug_line      0x002980        0x158 build/default/production/mcc_generated_files/uart1.o
- .debug_line      0x002ad8         0x38 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
- .debug_line      0x002b10         0x45 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_line      0x002793        0x204 build/default/production/main.o
+ .debug_line      0x002997        0x158 build/default/production/mcc_generated_files/uart1.o
+ .debug_line      0x002aef         0x38 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
+ .debug_line      0x002b27         0x45 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_line      0x002b6c         0x59 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_line      0x002bc5         0x4a c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_line      0x002c0f         0x3a c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
 
-.debug_frame      0x000000       0x1cce
+.debug_frame      0x000000       0x1cdc
  *(.debug_frame)
  .debug_frame     0x000000         0x48 build/default/production/mcc_generated_files/drivers/spi_master.o
  .debug_frame     0x000048         0xca build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
@@ -1027,8 +1175,8 @@ __FDEVOPT1
  .debug_frame     0x0019ac         0x2e build/default/production/mcc_generated_files/system.o
  .debug_frame     0x0019da        0x118 build/default/production/mcc_generated_files/spi1_driver.o
  .debug_frame     0x001af2         0x48 build/default/production/mcc_generated_files/delay.o
- .debug_frame     0x001b3a         0x7c build/default/production/main.o
- .debug_frame     0x001bb6        0x118 build/default/production/mcc_generated_files/uart1.o
+ .debug_frame     0x001b3a         0x8a build/default/production/main.o
+ .debug_frame     0x001bc4        0x118 build/default/production/mcc_generated_files/uart1.o
 
 .debug_str        0x000000        0x5a1
  *(.debug_str)
@@ -1113,7 +1261,7 @@ __FDEVOPT1
 .debug_ranges
  *(.debug_ranges)
 
-.debug_aranges    0x000000        0x260
+.debug_aranges    0x000000        0x2a8
  *(.debug_aranges)
  .debug_aranges
                   0x000000         0x18 build/default/production/mcc_generated_files/drivers/spi_master.o
@@ -1165,6 +1313,12 @@ __FDEVOPT1
                   0x000230         0x18 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
  .debug_aranges
                   0x000248         0x18 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+ .debug_aranges
+                  0x000260         0x18 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ .debug_aranges
+                  0x000278         0x18 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ .debug_aranges
+                  0x000290         0x18 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
                     0x0000                  WREG0 = 0x0
                     0x0000                  _WREG0 = 0x0
                     0x0002                  WREG1 = 0x2
@@ -2600,174 +2754,202 @@ LOAD default_isr
 LOAD data_init
 
 .debug_pubtypes
-                  0x000260       0x1200
+                  0x0002a8       0x121c
  .debug_pubtypes
-                  0x000260         0x64 build/default/production/mcc_generated_files/drivers/spi_master.o
+                  0x0002a8         0x64 build/default/production/mcc_generated_files/drivers/spi_master.o
  .debug_pubtypes
-                  0x0002c4         0xa7 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
+                  0x00030c         0xa7 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
  .debug_pubtypes
-                  0x00036b        0x116 build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
+                  0x0003b3        0x116 build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
  .debug_pubtypes
-                  0x000481         0x3c build/default/production/mcc_generated_files/winc/common/source/nm_common.o
+                  0x0004c9         0x3c build/default/production/mcc_generated_files/winc/common/source/nm_common.o
  .debug_pubtypes
-                  0x0004bd         0x12 build/default/production/mcc_generated_files/winc/driver/source/nmuart.o
+                  0x000505         0x12 build/default/production/mcc_generated_files/winc/driver/source/nmuart.o
  .debug_pubtypes
-                  0x0004cf         0x57 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
+                  0x000517         0x57 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
  .debug_pubtypes
-                  0x000526         0x56 build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
+                  0x00056e         0x56 build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
  .debug_pubtypes
-                  0x00057c         0xde build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
+                  0x0005c4         0xde build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
  .debug_pubtypes
-                  0x00065a         0xa2 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
+                  0x0006a2         0xa2 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
  .debug_pubtypes
-                  0x0006fc         0x12 build/default/production/mcc_generated_files/winc/driver/source/m2m_crypto.o
+                  0x000744         0x12 build/default/production/mcc_generated_files/winc/driver/source/m2m_crypto.o
  .debug_pubtypes
-                  0x00070e        0x3eb build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
+                  0x000756        0x3eb build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
  .debug_pubtypes
-                  0x000af9         0x12 build/default/production/mcc_generated_files/winc/driver/source/m2m_periph.o
+                  0x000b41         0x12 build/default/production/mcc_generated_files/winc/driver/source/m2m_periph.o
  .debug_pubtypes
-                  0x000b0b         0x71 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
+                  0x000b53         0x71 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
  .debug_pubtypes
-                  0x000b7c         0x12 build/default/production/mcc_generated_files/winc/driver/source/nmi2c.o
+                  0x000bc4         0x12 build/default/production/mcc_generated_files/winc/driver/source/nmi2c.o
  .debug_pubtypes
-                  0x000b8e         0x4b build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
+                  0x000bd6         0x4b build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
  .debug_pubtypes
-                  0x000bd9         0x5a build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
+                  0x000c21         0x5a build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
  .debug_pubtypes
-                  0x000c33        0x2d3 build/default/production/mcc_generated_files/winc/socket/source/socket.o
+                  0x000c7b        0x2d3 build/default/production/mcc_generated_files/winc/socket/source/socket.o
  .debug_pubtypes
-                  0x000f06         0x3c build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
+                  0x000f4e         0x3c build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
  .debug_pubtypes
-                  0x000f42         0x71 build/default/production/mcc_generated_files/traps.o
+                  0x000f8a         0x71 build/default/production/mcc_generated_files/traps.o
  .debug_pubtypes
-                  0x000fb3        0x15d build/default/production/mcc_generated_files/pin_manager.o
+                  0x000ffb        0x15d build/default/production/mcc_generated_files/pin_manager.o
  .debug_pubtypes
-                  0x001110         0x3c build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x001158         0x3c build/default/production/mcc_generated_files/interrupt_manager.o
  .debug_pubtypes
-                  0x00114c         0x2b build/default/production/mcc_generated_files/clock.o
+                  0x001194         0x2b build/default/production/mcc_generated_files/clock.o
  .debug_pubtypes
-                  0x001177         0x42 build/default/production/mcc_generated_files/system.o
+                  0x0011bf         0x42 build/default/production/mcc_generated_files/system.o
  .debug_pubtypes
-                  0x0011b9        0x10b build/default/production/mcc_generated_files/spi1_driver.o
+                  0x001201        0x10b build/default/production/mcc_generated_files/spi1_driver.o
  .debug_pubtypes
-                  0x0012c4         0x1f build/default/production/mcc_generated_files/delay.o
+                  0x00130c         0x1f build/default/production/mcc_generated_files/delay.o
  .debug_pubtypes
-                  0x0012e3        0x112 build/default/production/main.o
+                  0x00132b        0x12e build/default/production/main.o
  .debug_pubtypes
-                  0x0013f5         0x6b build/default/production/mcc_generated_files/uart1.o
+                  0x001459         0x6b build/default/production/mcc_generated_files/uart1.o
 
 __c30_signature
-                  0x001460        0x11a
+                  0x0014c4        0x16e
  __c30_signature
-                  0x001460          0x6 build/default/production/mcc_generated_files/drivers/spi_master.o
+                  0x0014c4          0x6 build/default/production/mcc_generated_files/drivers/spi_master.o
  __c30_signature
-                  0x001466          0x6 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
+                  0x0014ca          0x6 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
  __c30_signature
-                  0x00146c          0x6 build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
+                  0x0014d0          0x6 build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
  __c30_signature
-                  0x001472          0x6 build/default/production/mcc_generated_files/winc/common/source/nm_common.o
+                  0x0014d6          0x6 build/default/production/mcc_generated_files/winc/common/source/nm_common.o
  __c30_signature
-                  0x001478          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmuart.o
+                  0x0014dc          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmuart.o
  __c30_signature
-                  0x00147e          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
+                  0x0014e2          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
  __c30_signature
-                  0x001484          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
+                  0x0014e8          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
  __c30_signature
-                  0x00148a          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
+                  0x0014ee          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
  __c30_signature
-                  0x001490          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
+                  0x0014f4          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
  __c30_signature
-                  0x001496          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_crypto.o
+                  0x0014fa          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_crypto.o
  __c30_signature
-                  0x00149c          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
+                  0x001500          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
  __c30_signature
-                  0x0014a2          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_periph.o
+                  0x001506          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_periph.o
  __c30_signature
-                  0x0014a8          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
+                  0x00150c          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
  __c30_signature
-                  0x0014ae          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmi2c.o
+                  0x001512          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmi2c.o
  __c30_signature
-                  0x0014b4          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ate_mode.o
+                  0x001518          0x6 build/default/production/mcc_generated_files/winc/driver/source/m2m_ate_mode.o
  __c30_signature
-                  0x0014ba          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
+                  0x00151e          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
  __c30_signature
-                  0x0014c0          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
+                  0x001524          0x6 build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
  __c30_signature
-                  0x0014c6          0x6 build/default/production/mcc_generated_files/winc/socket/source/socket.o
+                  0x00152a          0x6 build/default/production/mcc_generated_files/winc/socket/source/socket.o
  __c30_signature
-                  0x0014cc          0x6 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
+                  0x001530          0x6 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
  __c30_signature
-                  0x0014d2          0x6 build/default/production/mcc_generated_files/traps.o
+                  0x001536          0x6 build/default/production/mcc_generated_files/traps.o
  __c30_signature
-                  0x0014d8          0x6 build/default/production/mcc_generated_files/pin_manager.o
+                  0x00153c          0x6 build/default/production/mcc_generated_files/pin_manager.o
  __c30_signature
-                  0x0014de          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x001542          0x6 build/default/production/mcc_generated_files/interrupt_manager.o
  __c30_signature
-                  0x0014e4          0x6 build/default/production/mcc_generated_files/mcc.o
+                  0x001548          0x6 build/default/production/mcc_generated_files/mcc.o
  __c30_signature
-                  0x0014ea          0x6 build/default/production/mcc_generated_files/clock.o
+                  0x00154e          0x6 build/default/production/mcc_generated_files/clock.o
  __c30_signature
-                  0x0014f0          0x6 build/default/production/mcc_generated_files/system.o
+                  0x001554          0x6 build/default/production/mcc_generated_files/system.o
  __c30_signature
-                  0x0014f6          0x6 build/default/production/mcc_generated_files/spi1_driver.o
+                  0x00155a          0x6 build/default/production/mcc_generated_files/spi1_driver.o
  __c30_signature
-                  0x0014fc          0x6 build/default/production/mcc_generated_files/delay.o
+                  0x001560          0x6 build/default/production/mcc_generated_files/delay.o
  __c30_signature
-                  0x001502          0x6 build/default/production/main.o
+                  0x001566          0x6 build/default/production/main.o
  __c30_signature
-                  0x001508          0x6 build/default/production/mcc_generated_files/uart1.o
+                  0x00156c          0x6 build/default/production/mcc_generated_files/uart1.o
  __c30_signature
-                  0x00150e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
+                  0x001572          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(crt0_extended24.o)
  __c30_signature
-                  0x001514          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(data_init_24.o)
+                  0x001578          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(data_init_24.o)
  __c30_signature
-                  0x00151a          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(delay32da.Meo)
+                  0x00157e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(delay32da.Meo)
  __c30_signature
-                  0x001520          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
+                  0x001584          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(umodsi3.DA_o)
  __c30_signature
-                  0x001526          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
+                  0x00158a          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(udivsi3.DA_o)
  __c30_signature
-                  0x00152c          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memcpy.DA_o)
+                  0x001590          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memcpy.DA_o)
  __c30_signature
-                  0x001532          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(puts.DA_o)
+                  0x001596          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(puts.DA_o)
  __c30_signature
-                  0x001538          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                  0x00159c          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
  __c30_signature
-                  0x00153e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(strlen.DA_o)
+                  0x0015a2          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(strlen.DA_o)
  __c30_signature
-                  0x001544          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
+                  0x0015a8          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__out.DA_o)
  __c30_signature
-                  0x00154a          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
+                  0x0015ae          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__stdio_close.DA_o)
  __c30_signature
-                  0x001550          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fputs.DA_o)
+                  0x0015b4          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fputs.DA_o)
  __c30_signature
-                  0x001556          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
+                  0x0015ba          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(fwrite.DA_o)
  __c30_signature
-                  0x00155c          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+                  0x0015c0          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
  __c30_signature
-                  0x001562          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo)
+                  0x0015c6          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__sio_printf_0.DA_o)
  __c30_signature
-                  0x001568          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+                  0x0015cc          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__fmt_s.DA_o)
  __c30_signature
-                  0x00156e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
+                  0x0015d2          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.DA_o)
  __c30_signature
-                  0x001574          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(lseekda.Meo)
+                  0x0015d8          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+ __c30_signature
+                  0x0015de          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(memset.DA_o)
+ __c30_signature
+                  0x0015e4          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo)
+ __c30_signature
+                  0x0015ea          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(atoi.DA_o)
+ __c30_signature
+                  0x0015f0          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(tolower.DA_o)
+ __c30_signature
+                  0x0015f6          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_lo)
+ __c30_signature
+                  0x0015fc          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_float.DA_lo)
+ __c30_signature
+                  0x001602          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_int.DA_lo)
+ __c30_signature
+                  0x001608          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__pop_ptr.DA_lo)
+ __c30_signature
+                  0x00160e          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__init_stdio.DA_o)
+ __c30_signature
+                  0x001614          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
+ __c30_signature
+                  0x00161a          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.DA_o)
+ __c30_signature
+                  0x001620          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(funpack.DA_o)
+ __c30_signature
+                  0x001626          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.DA_o)
+ __c30_signature
+                  0x00162c          0x6 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(lseekda.Meo)
 
 __xc_reference_data
-                  0x000598          0xa
+                  0x000cf4          0xa
  __xc_reference_data
-                  0x000598          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
-                  0x000598                  ___stdout_needs_init
+                  0x000cf4          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(stdout.DA_o)
+                  0x000cf4                  ___stdout_needs_init
  __xc_reference_data
-                  0x00059a          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
-                  0x00059a                  ___putc_needs_out
+                  0x000cf6          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(putc.DA_o)
+                  0x000cf6                  ___putc_needs_out
  __xc_reference_data
-                  0x00059c          0x4 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo)
-                  0x00059c                  ___io_init_needed
-                  0x00059e                  ___io_init_needs_file
+                  0x000cf8          0x4 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_init_needed.DA_lo)
+                  0x000cf8                  ___io_init_needed
+                  0x000cfa                  ___io_init_needs_file
  __xc_reference_data
-                  0x0005a0          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
-                  0x0005a0                  ___io_file_needed
+                  0x000cfc          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__io_file_needed.DA_o)
+                  0x000cfc                  ___io_file_needed
 
 .nbss               0x0800         0x28
  .nbss              0x0800         0x10 build/default/production/mcc_generated_files/winc/socket/source/socket.o
@@ -2811,13 +2993,20 @@ __xc_reference_data
                     0x08b6                  __stdout
                     0x08b8                  ___stdout_used
 
-.bss                0x08f8         0x7a
+.bss                0x08f8         0x5c
  .bss               0x08f8         0x3c build/default/production/main.o
  .bss               0x0934         0x20 build/default/production/mcc_generated_files/traps.o
- .bss               0x0954         0x1a build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
-                    0x0954                  _gstrHifCxt
- .bss               0x096e          0x4 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
-                    0x096e                  _cmd
+
+.data               0x0954         0x1c
+ .data              0x0954         0x1c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__printf_core.DA_o)
+
+.bss                0x0970         0x20
+ .bss               0x0970         0x1a build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
+                    0x0970                  _gstrHifCxt
+ .bss               0x098a          0x4 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
+                    0x098a                  _cmd
+ .bss               0x098e          0x2 c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-elf.a(__errno_location.DA_lo)
+                    0x098e                  ___errno_val
 
 .ivt._OscillatorFail
                   0x000004          0x2
@@ -2874,257 +3063,257 @@ __xc_reference_data
 .config_BSLIM     0x015f10          0x2
  .config_BSLIM    0x015f10          0x2 build/default/production/mcc_generated_files/system.o
 
-_040152806250dcfa
-                    0x8598        0x100 load address 0x000598  
- _040152806250dcfa
-                    0x8598        0x100 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
+_040e32806250eadb
+                    0x8cf4        0x100 load address 0x000cf4  
+ _040e32806250eadb
+                    0x8cf4        0x100 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
 
-.const              0x8698         0xa4 load address 0x000698  
- .const             0x8698         0x84 build/default/production/main.o
- .const             0x871c         0x14 build/default/production/mcc_generated_files/drivers/spi_master.o
-                    0x871c                  _spiMaster
- .const             0x8730          0xc build/default/production/mcc_generated_files/spi1_driver.o
+.const              0x8df4         0xf2 load address 0x000df4  
+ .const             0x8df4         0xd2 build/default/production/main.o
+ .const             0x8ec6         0x14 build/default/production/mcc_generated_files/drivers/spi_master.o
+                    0x8ec6                  _spiMaster
+ .const             0x8eda          0xc build/default/production/mcc_generated_files/spi1_driver.o
 
-.text             0x00073c       0x60f4
- .text            0x00073c       0x13b0 build/default/production/mcc_generated_files/winc/socket/source/socket.o
-                  0x00073c                  _Socket_ReadSocketData
-                  0x0008b6                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
-                  0x000d6e                  _socketInit
-                  0x000d90                  _socketDeinit
-                  0x000dac                  _registerSocketCallback
-                  0x000dc2                  _socket
-                  0x000f1e                  _bind
-                  0x000fd6                  _listen
-                  0x001048                  _accept
-                  0x001082                  _connect
-                  0x001152                  _send
-                  0x001240                  _sendto
-                  0x00132c                  _recv
-                  0x00144c                  _close
-                  0x00151a                  _recvfrom
-                  0x001632                  _nmi_inet_addr
-                  0x001700                  _gethostbyname
-                  0x00199c                  _setsockopt
-                  0x001a52                  _getsockopt
-                  0x001a6c                  _m2m_ping_req
-                  0x001ac8                  _sslEnableCertExpirationCheck
- .text            0x001aec       0x10e0 build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
-                  0x001aec                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
-                  0x001dd2                  _m2m_wifi_download_mode
-                  0x001fa6                  _m2m_wifi_send_crl
-                  0x001fcc                  _m2m_wifi_init
-                  0x002034                  _m2m_wifi_deinit
-                  0x002046                  _m2m_wifi_handle_events
-                  0x002050                  _m2m_wifi_default_connect
-                  0x002066                  _m2m_wifi_connect
-                  0x002094                  _m2m_wifi_connect_sc
-                  0x002362                  _m2m_wifi_disconnect
-                  0x002378                  _m2m_wifi_set_mac_address
-                  0x00239e                  _m2m_wifi_set_static_ip
-                  0x0023e4                  _m2m_wifi_request_dhcp_client
-                  0x0023ec                  _m2m_wifi_request_dhcp_server
-                  0x0023f6                  _m2m_wifi_enable_dhcp
-                  0x002420                  _m2m_wifi_set_lsn_int
-                  0x00243a                  _m2m_wifi_set_cust_InfoElement
-                  0x002480                  _m2m_wifi_set_scan_options
-                  0x0024b0                  _m2m_wifi_set_scan_region
-                  0x0024da                  _m2m_wifi_request_scan
-                  0x00253c                  _m2m_wifi_request_scan_passive
-                  0x0025a8                  _m2m_wifi_request_scan_ssid_list
-                  0x00267a                  _m2m_wifi_wps
-                  0x0026b2                  _m2m_wifi_wps_disable
-                  0x0026d0                  _m2m_wifi_req_client_ctrl
-                  0x0026e0                  _m2m_wifi_req_server_init
-                  0x0026f0                  _m2m_wifi_p2p
-                  0x002738                  _m2m_wifi_p2p_disconnect
-                  0x002756                  _m2m_wifi_enable_ap
-                  0x002786                  _m2m_wifi_set_gains
-                  0x0027b4                  _m2m_wifi_disable_ap
-                  0x0027d2                  _m2m_wifi_req_curr_rssi
-                  0x0027f0                  _m2m_wifi_send_ethernet_pkt
-                  0x002838                  _m2m_wifi_get_otp_mac_address
-                  0x00286c                  _m2m_wifi_get_mac_address
-                  0x002898                  _m2m_wifi_req_scan_result
-                  0x0028c2                  _m2m_wifi_get_num_ap_found
-                  0x0028ca                  _m2m_wifi_get_sleep_mode
-                  0x0028d2                  _m2m_wifi_set_sleep_mode
-                  0x00290c                  _m2m_wifi_request_sleep
-                  0x002946                  _m2m_wifi_set_device_name
-                  0x0029a0                  _m2m_wifi_get_firmware_version
-                  0x0029c4                  _m2m_wifi_start_provision_mode
-                  0x002a4c                  _m2m_wifi_stop_provision_mode
-                  0x002a62                  _m2m_wifi_get_connection_info
-                  0x002a78                  _m2m_wifi_set_sytem_time
-                  0x002a92                  _m2m_wifi_get_sytem_time
-                  0x002aa8                  _m2m_wifi_enable_sntp
-                  0x002ad2                  _m2m_wifi_set_power_profile
-                  0x002afc                  _m2m_wifi_set_tx_power
-                  0x002b26                  _m2m_wifi_enable_firmware_logs
-                  0x002b50                  _m2m_wifi_set_battery_voltage
-                  0x002b80                  _m2m_wifi_prng_get_random_bytes
- .text            0x002bcc        0xbc2 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
-                  0x0035e0                  _nm_spi_reset
-                  0x0035f8                  _nm_spi_init
-                  0x0036b0                  _nm_spi_deinit
-                  0x0036ba                  _nm_spi_read_reg
-                  0x0036ce                  _nm_spi_read_reg_with_ret
-                  0x0036fa                  _nm_spi_write_reg
-                  0x003726                  _nm_spi_read_block
-                  0x00375a                  _nm_spi_write_block
- .text            0x00378e        0xb72 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
-                  0x003f60                  _spi_flash_enable
-                  0x004032                  _spi_flash_read
-                  0x0040bc                  _spi_flash_write
-                  0x0041ea                  _spi_flash_erase
-                  0x00429c                  _spi_flash_get_size
- .text            0x004300        0xa74 build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
-                  0x004300                  _chip_apply_conf
-                  0x004368                  _chip_idle
-                  0x0043b8                  _enable_interrupts
-                  0x004430                  _cpu_start
-                  0x004528                  _nmi_get_chipid
-                  0x004616                  _nmi_get_rfrevid
-                  0x004632                  _restore_pmu_settings_after_global_reset
-                  0x00466a                  _nmi_update_pll
-                  0x0046a6                  _nmi_set_sys_clk_src_to_xo
-                  0x0046c0                  _chip_sleep
-                  0x0047ba                  _chip_wake
-                  0x0048c2                  _cpu_halt
-                  0x004978                  _chip_reset_and_cpu_halt
-                  0x0049a4                  _chip_reset
-                  0x0049c0                  _wait_for_bootrom
-                  0x004af8                  _wait_for_firmware_start
-                  0x004ba4                  _chip_deinit
-                  0x004bf8                  _nmi_get_otp_mac_address
-                  0x004cd6                  _nmi_get_mac_address
- .text            0x004d74        0x792 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
-                  0x004d74                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
-                  0x004dc8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
-                  0x004dd8                  _hif_chip_wake
-                  0x004e18                  _hif_set_sleep_mode
-                  0x004e24                  _hif_get_sleep_mode
-                  0x004e2e                  _hif_chip_sleep_sc
-                  0x004e48                  _hif_chip_sleep
-                  0x004e7a                  _hif_init
-                  0x004e98                  _hif_deinit
-                  0x004eb6                  _hif_send
-                  0x00537c                  _hif_handle_isr
-                  0x0053ac                  _hif_receive
-                  0x00548a                  _hif_register_cb
- .text            0x005506        0x538 build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
-                  0x005506                  _nm_get_firmware_info
-                  0x00564c                  _nm_get_firmware_full_info
-                  0x0057c0                  _nm_get_ota_firmware_info
-                  0x00591e                  _nm_drv_init_download_mode
-                  0x00596e                  _nm_drv_init
-                  0x005a04                  _nm_drv_deinit
- .text            0x005a3e        0x35e build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
-                  0x005a3e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
-                  0x005adc                  _m2m_ssl_handshake_rsp
-                  0x005b0e                  _m2m_ssl_send_certs_to_winc
-                  0x005b3a                  _m2m_ssl_retrieve_cert
-                  0x005cd8                  _m2m_ssl_retrieve_hash
-                  0x005d34                  _m2m_ssl_stop_processing_certs
-                  0x005d44                  _m2m_ssl_ecc_process_done
-                  0x005d4e                  _m2m_ssl_set_active_ciphersuites
-                  0x005d7a                  _m2m_ssl_init
- .text            0x005d9c        0x250 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
-                  0x005d9c                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
-                  0x005e26                  _m2m_ota_init
-                  0x005e5c                  _m2m_ota_notif_set_url
-                  0x005e8e                  _m2m_ota_notif_check_for_update
-                  0x005eac                  _m2m_ota_notif_sched
-                  0x005ece                  _m2m_ota_start_update
-                  0x005f00                  _m2m_ota_start_update_crt
-                  0x005f32                  _m2m_ota_rollback
-                  0x005f50                  _m2m_ota_rollback_crt
-                  0x005f6e                  _m2m_ota_abort
-                  0x005f8c                  _m2m_ota_switch_firmware
-                  0x005faa                  _m2m_ota_switch_crt
-                  0x005fc8                  _m2m_ota_get_firmware_version
- .text            0x005fec        0x21c build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
-                  0x005fec                  _nm_bus_iface_init
-                  0x006004                  _nm_bus_iface_deinit
-                  0x006014                  _nm_bus_reset
-                  0x006020                  _nm_bus_iface_reconfigure
-                  0x006030                  _nm_read_reg
-                  0x00603c                  _nm_read_reg_with_ret
-                  0x006050                  _nm_write_reg
-                  0x006080                  _nm_read_block
-                  0x006152                  _nm_write_block
- .text            0x006208        0x214 build/default/production/mcc_generated_files/winc/common/source/nm_common.o
-                  0x006208                  _m2m_memcpy
-                  0x006252                  _m2m_checksum
-                  0x00628c                  _m2m_memset
-                  0x0062c8                  _m2m_strlen
-                  0x0062f0                  _m2m_strncmp
-                  0x006352                  _m2m_strstr
-                  0x0063c6                  _m2m_memcmp
- .text            0x00641c        0x164 build/default/production/mcc_generated_files/spi1_driver.o
-                  0x00641c                  _spi1_close
-                  0x006424                  _spi1_open
-                  0x00647a                  _spi1_exchangeByte
-                  0x006494                  _spi1_exchangeBlock
-                  0x0064d0                  _spi1_writeBlock
-                  0x006508                  _spi1_readBlock
-                  0x006542                  _spi1_writeByte
-                  0x00654e                  _spi1_readByte
-                  0x006558                  _spi1_isr
-                  0x006574                  _spi1_setSpiISR
- .text            0x006580        0x13c build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
-                  0x006640                  _nm_bus_init
-                  0x006664                  _nm_bus_ioctl
-                  0x0066aa                  _nm_bus_deinit
-                  0x0066b2                  _nm_bus_reinit
- .text            0x0066bc         0xba build/default/production/mcc_generated_files/pin_manager.o
-                  0x0066bc                  _PIN_MANAGER_Initialize
-                  0x006754                  _INT_CallBack
-                  0x00675a                  _INT_SetInterruptHandler
-                  0x00676a                  _INT_SetIOCInterruptHandler
- .text            0x006776         0xba build/default/production/mcc_generated_files/uart1.o
-                  0x006776                  _UART1_Initialize
-                  0x00678c                  _UART1_Read
-                  0x0067aa                  _UART1_Write
-                  0x0067c2                  _UART1_IsRxReady
-                  0x0067da                  _UART1_IsTxReady
-                  0x0067fc                  _UART1_IsTxDone
-                  0x006814                  _UART1_StatusGet
-                  0x00681c                  _UART1_Enable
-                  0x006826                  _UART1_Disable
+.text             0x000ee6       0x6064
+ .text            0x000ee6       0x13b0 build/default/production/mcc_generated_files/winc/socket/source/socket.o
+                  0x000ee6                  _Socket_ReadSocketData
+                  0x001060                  build/default/production/mcc_generated_files/winc/socket/source/socket.o:_m2m_ip_cb
+                  0x001518                  _socketInit
+                  0x00153a                  _socketDeinit
+                  0x001556                  _registerSocketCallback
+                  0x00156c                  _socket
+                  0x0016c8                  _bind
+                  0x001780                  _listen
+                  0x0017f2                  _accept
+                  0x00182c                  _connect
+                  0x0018fc                  _send
+                  0x0019ea                  _sendto
+                  0x001ad6                  _recv
+                  0x001bf6                  _close
+                  0x001cc4                  _recvfrom
+                  0x001ddc                  _nmi_inet_addr
+                  0x001eaa                  _gethostbyname
+                  0x002146                  _setsockopt
+                  0x0021fc                  _getsockopt
+                  0x002216                  _m2m_ping_req
+                  0x002272                  _sslEnableCertExpirationCheck
+ .text            0x002296       0x10e0 build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o
+                  0x002296                  build/default/production/mcc_generated_files/winc/driver/source/m2m_wifi.o:_m2m_wifi_cb
+                  0x00257c                  _m2m_wifi_download_mode
+                  0x002750                  _m2m_wifi_send_crl
+                  0x002776                  _m2m_wifi_init
+                  0x0027de                  _m2m_wifi_deinit
+                  0x0027f0                  _m2m_wifi_handle_events
+                  0x0027fa                  _m2m_wifi_default_connect
+                  0x002810                  _m2m_wifi_connect
+                  0x00283e                  _m2m_wifi_connect_sc
+                  0x002b0c                  _m2m_wifi_disconnect
+                  0x002b22                  _m2m_wifi_set_mac_address
+                  0x002b48                  _m2m_wifi_set_static_ip
+                  0x002b8e                  _m2m_wifi_request_dhcp_client
+                  0x002b96                  _m2m_wifi_request_dhcp_server
+                  0x002ba0                  _m2m_wifi_enable_dhcp
+                  0x002bca                  _m2m_wifi_set_lsn_int
+                  0x002be4                  _m2m_wifi_set_cust_InfoElement
+                  0x002c2a                  _m2m_wifi_set_scan_options
+                  0x002c5a                  _m2m_wifi_set_scan_region
+                  0x002c84                  _m2m_wifi_request_scan
+                  0x002ce6                  _m2m_wifi_request_scan_passive
+                  0x002d52                  _m2m_wifi_request_scan_ssid_list
+                  0x002e24                  _m2m_wifi_wps
+                  0x002e5c                  _m2m_wifi_wps_disable
+                  0x002e7a                  _m2m_wifi_req_client_ctrl
+                  0x002e8a                  _m2m_wifi_req_server_init
+                  0x002e9a                  _m2m_wifi_p2p
+                  0x002ee2                  _m2m_wifi_p2p_disconnect
+                  0x002f00                  _m2m_wifi_enable_ap
+                  0x002f30                  _m2m_wifi_set_gains
+                  0x002f5e                  _m2m_wifi_disable_ap
+                  0x002f7c                  _m2m_wifi_req_curr_rssi
+                  0x002f9a                  _m2m_wifi_send_ethernet_pkt
+                  0x002fe2                  _m2m_wifi_get_otp_mac_address
+                  0x003016                  _m2m_wifi_get_mac_address
+                  0x003042                  _m2m_wifi_req_scan_result
+                  0x00306c                  _m2m_wifi_get_num_ap_found
+                  0x003074                  _m2m_wifi_get_sleep_mode
+                  0x00307c                  _m2m_wifi_set_sleep_mode
+                  0x0030b6                  _m2m_wifi_request_sleep
+                  0x0030f0                  _m2m_wifi_set_device_name
+                  0x00314a                  _m2m_wifi_get_firmware_version
+                  0x00316e                  _m2m_wifi_start_provision_mode
+                  0x0031f6                  _m2m_wifi_stop_provision_mode
+                  0x00320c                  _m2m_wifi_get_connection_info
+                  0x003222                  _m2m_wifi_set_sytem_time
+                  0x00323c                  _m2m_wifi_get_sytem_time
+                  0x003252                  _m2m_wifi_enable_sntp
+                  0x00327c                  _m2m_wifi_set_power_profile
+                  0x0032a6                  _m2m_wifi_set_tx_power
+                  0x0032d0                  _m2m_wifi_enable_firmware_logs
+                  0x0032fa                  _m2m_wifi_set_battery_voltage
+                  0x00332a                  _m2m_wifi_prng_get_random_bytes
+ .text            0x003376        0xbc2 build/default/production/mcc_generated_files/winc/driver/source/nmspi.o
+                  0x003d8a                  _nm_spi_reset
+                  0x003da2                  _nm_spi_init
+                  0x003e5a                  _nm_spi_deinit
+                  0x003e64                  _nm_spi_read_reg
+                  0x003e78                  _nm_spi_read_reg_with_ret
+                  0x003ea4                  _nm_spi_write_reg
+                  0x003ed0                  _nm_spi_read_block
+                  0x003f04                  _nm_spi_write_block
+ .text            0x003f38        0xb72 build/default/production/mcc_generated_files/winc/spi_flash/source/spi_flash.o
+                  0x00470a                  _spi_flash_enable
+                  0x0047dc                  _spi_flash_read
+                  0x004866                  _spi_flash_write
+                  0x004994                  _spi_flash_erase
+                  0x004a46                  _spi_flash_get_size
+ .text            0x004aaa        0xa74 build/default/production/mcc_generated_files/winc/driver/source/nmasic.o
+                  0x004aaa                  _chip_apply_conf
+                  0x004b12                  _chip_idle
+                  0x004b62                  _enable_interrupts
+                  0x004bda                  _cpu_start
+                  0x004cd2                  _nmi_get_chipid
+                  0x004dc0                  _nmi_get_rfrevid
+                  0x004ddc                  _restore_pmu_settings_after_global_reset
+                  0x004e14                  _nmi_update_pll
+                  0x004e50                  _nmi_set_sys_clk_src_to_xo
+                  0x004e6a                  _chip_sleep
+                  0x004f64                  _chip_wake
+                  0x00506c                  _cpu_halt
+                  0x005122                  _chip_reset_and_cpu_halt
+                  0x00514e                  _chip_reset
+                  0x00516a                  _wait_for_bootrom
+                  0x0052a2                  _wait_for_firmware_start
+                  0x00534e                  _chip_deinit
+                  0x0053a2                  _nmi_get_otp_mac_address
+                  0x005480                  _nmi_get_mac_address
+ .text            0x00551e        0x792 build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o
+                  0x00551e                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_isr
+                  0x005572                  build/default/production/mcc_generated_files/winc/driver/source/m2m_hif.o:_m2m_hif_cb
+                  0x005582                  _hif_chip_wake
+                  0x0055c2                  _hif_set_sleep_mode
+                  0x0055ce                  _hif_get_sleep_mode
+                  0x0055d8                  _hif_chip_sleep_sc
+                  0x0055f2                  _hif_chip_sleep
+                  0x005624                  _hif_init
+                  0x005642                  _hif_deinit
+                  0x005660                  _hif_send
+                  0x005b26                  _hif_handle_isr
+                  0x005b56                  _hif_receive
+                  0x005c34                  _hif_register_cb
+ .text            0x005cb0        0x538 build/default/production/mcc_generated_files/winc/driver/source/nmdrv.o
+                  0x005cb0                  _nm_get_firmware_info
+                  0x005df6                  _nm_get_firmware_full_info
+                  0x005f6a                  _nm_get_ota_firmware_info
+                  0x0060c8                  _nm_drv_init_download_mode
+                  0x006118                  _nm_drv_init
+                  0x0061ae                  _nm_drv_deinit
+ .text            0x0061e8        0x35e build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o
+                  0x0061e8                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ssl.o:_m2m_ssl_cb
+                  0x006286                  _m2m_ssl_handshake_rsp
+                  0x0062b8                  _m2m_ssl_send_certs_to_winc
+                  0x0062e4                  _m2m_ssl_retrieve_cert
+                  0x006482                  _m2m_ssl_retrieve_hash
+                  0x0064de                  _m2m_ssl_stop_processing_certs
+                  0x0064ee                  _m2m_ssl_ecc_process_done
+                  0x0064f8                  _m2m_ssl_set_active_ciphersuites
+                  0x006524                  _m2m_ssl_init
+ .text            0x006546        0x250 build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o
+                  0x006546                  build/default/production/mcc_generated_files/winc/driver/source/m2m_ota.o:_m2m_ota_cb
+                  0x0065d0                  _m2m_ota_init
+                  0x006606                  _m2m_ota_notif_set_url
+                  0x006638                  _m2m_ota_notif_check_for_update
+                  0x006656                  _m2m_ota_notif_sched
+                  0x006678                  _m2m_ota_start_update
+                  0x0066aa                  _m2m_ota_start_update_crt
+                  0x0066dc                  _m2m_ota_rollback
+                  0x0066fa                  _m2m_ota_rollback_crt
+                  0x006718                  _m2m_ota_abort
+                  0x006736                  _m2m_ota_switch_firmware
+                  0x006754                  _m2m_ota_switch_crt
+                  0x006772                  _m2m_ota_get_firmware_version
+ .text            0x006796        0x21c build/default/production/mcc_generated_files/winc/driver/source/nmbus.o
+                  0x006796                  _nm_bus_iface_init
+                  0x0067ae                  _nm_bus_iface_deinit
+                  0x0067be                  _nm_bus_reset
+                  0x0067ca                  _nm_bus_iface_reconfigure
+                  0x0067da                  _nm_read_reg
+                  0x0067e6                  _nm_read_reg_with_ret
+                  0x0067fa                  _nm_write_reg
+                  0x00682a                  _nm_read_block
+                  0x0068fc                  _nm_write_block
+ .text            0x0069b2        0x214 build/default/production/mcc_generated_files/winc/common/source/nm_common.o
+                  0x0069b2                  _m2m_memcpy
+                  0x0069fc                  _m2m_checksum
+                  0x006a36                  _m2m_memset
+                  0x006a72                  _m2m_strlen
+                  0x006a9a                  _m2m_strncmp
+                  0x006afc                  _m2m_strstr
+                  0x006b70                  _m2m_memcmp
+ .text            0x006bc6        0x164 build/default/production/mcc_generated_files/spi1_driver.o
+                  0x006bc6                  _spi1_close
+                  0x006bce                  _spi1_open
+                  0x006c24                  _spi1_exchangeByte
+                  0x006c3e                  _spi1_exchangeBlock
+                  0x006c7a                  _spi1_writeBlock
+                  0x006cb2                  _spi1_readBlock
+                  0x006cec                  _spi1_writeByte
+                  0x006cf8                  _spi1_readByte
+                  0x006d02                  _spi1_isr
+                  0x006d1e                  _spi1_setSpiISR
+ .text            0x006d2a        0x13c build/default/production/mcc_generated_files/winc/bus_wrapper/source/nm_bus_wrapper_mega.o
+                  0x006dea                  _nm_bus_init
+                  0x006e0e                  _nm_bus_ioctl
+                  0x006e54                  _nm_bus_deinit
+                  0x006e5c                  _nm_bus_reinit
+ .text            0x006e66         0xe4 build/default/production/main.o
+                  0x006e66                  build/default/production/main.o:_wifi_cb
+                  0x006ec0                  _main
+                  0x006f04                  _wifi_connect
+                  0x006f3c                  _init_gpio
 
-.dinit            0x006830         0x9e
- .dinit           0x006830         0x9e data_init
+.dinit            0x006f4a         0xbe
+ .dinit           0x006f4a         0xbe data_init
 
-.text             0x0068ce        0x1e4
- .text            0x0068ce         0x96 build/default/production/main.o
-                  0x0068ce                  build/default/production/main.o:_wifi_cb
-                  0x0068da                  _main
-                  0x00691e                  _wifi_connect
-                  0x006956                  _init_gpio
- .text            0x006964         0x94 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
-                  0x006970                  _nm_bsp_init
-                  0x00697e                  _nm_bsp_deinit
-                  0x006986                  _nm_bsp_reset
-                  0x0069a6                  _nm_bsp_sleep
-                  0x0069d0                  _nm_bsp_register_isr
-                  0x0069e4                  _nm_bsp_interrupt_ctrl
- .text            0x0069f8         0x56 build/default/production/mcc_generated_files/delay.o
-                  0x0069f8                  _DELAY_milliseconds
-                  0x006a1a                  _DELAY_microseconds
- .text            0x006a4e         0x46 build/default/production/mcc_generated_files/clock.o
-                  0x006a4e                  _CLOCK_Initialize
- .text            0x006a94         0x1e build/default/production/mcc_generated_files/drivers/spi_master.o
-                  0x006a94                  _WINC_open
-                  0x006a9e                  _spi_master_open
+.text             0x007008        0x2c2
+ .text            0x007008         0xba build/default/production/mcc_generated_files/pin_manager.o
+                  0x007008                  _PIN_MANAGER_Initialize
+                  0x0070a0                  _INT_CallBack
+                  0x0070a6                  _INT_SetInterruptHandler
+                  0x0070b6                  _INT_SetIOCInterruptHandler
+ .text            0x0070c2         0xba build/default/production/mcc_generated_files/uart1.o
+                  0x0070c2                  _UART1_Initialize
+                  0x0070d8                  _UART1_Read
+                  0x0070f6                  _UART1_Write
+                  0x00710e                  _UART1_IsRxReady
+                  0x007126                  _UART1_IsTxReady
+                  0x007148                  _UART1_IsTxDone
+                  0x007160                  _UART1_StatusGet
+                  0x007168                  _UART1_Enable
+                  0x007172                  _UART1_Disable
+ .text            0x00717c         0x94 build/default/production/mcc_generated_files/winc/bsp/source/nm_bsp_mega.o
+                  0x007188                  _nm_bsp_init
+                  0x007196                  _nm_bsp_deinit
+                  0x00719e                  _nm_bsp_reset
+                  0x0071be                  _nm_bsp_sleep
+                  0x0071e8                  _nm_bsp_register_isr
+                  0x0071fc                  _nm_bsp_interrupt_ctrl
+ .text            0x007210         0x56 build/default/production/mcc_generated_files/delay.o
+                  0x007210                  _DELAY_milliseconds
+                  0x007232                  _DELAY_microseconds
+ .text            0x007266         0x46 build/default/production/mcc_generated_files/clock.o
+                  0x007266                  _CLOCK_Initialize
+ .text            0x0072ac         0x1e build/default/production/mcc_generated_files/drivers/spi_master.o
+                  0x0072ac                  _WINC_open
+                  0x0072b6                  _spi_master_open
 
-.init.delay32     0x006ab2         0x1c
- .init.delay32    0x006ab2         0x1c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(delay32da.Meo)
-                  0x006ab2                  ___delay32
+.init.delay32     0x0072ca         0x1c
+ .init.delay32    0x0072ca         0x1c c:/program files/microchip/xc16/v2.00/bin/bin/../../lib\libc99-pic30-elf.a(delay32da.Meo)
+                  0x0072ca                  ___delay32
 
-.text             0x006ace         0x36
- .text            0x006ace         0x18 build/default/production/mcc_generated_files/traps.o
-                  0x006ace                  _TRAPS_halt_on_error
- .text            0x006ae6         0x10 build/default/production/mcc_generated_files/interrupt_manager.o
-                  0x006ae6                  _INTERRUPT_Initialize
- .text            0x006af6          0xe build/default/production/mcc_generated_files/system.o
-                  0x006af6                  _SYSTEM_Initialize
+.text             0x0072e6         0x36
+ .text            0x0072e6         0x18 build/default/production/mcc_generated_files/traps.o
+                  0x0072e6                  _TRAPS_halt_on_error
+ .text            0x0072fe         0x10 build/default/production/mcc_generated_files/interrupt_manager.o
+                  0x0072fe                  _INTERRUPT_Initialize
+ .text            0x00730e          0xe build/default/production/mcc_generated_files/system.o
+                  0x00730e                  _SYSTEM_Initialize

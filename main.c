@@ -59,7 +59,40 @@ void init_gpio();
 
 static void wifi_cb (uint8_t u8MsgType, void *pvMsg)
 {/*Funcion callback para notificaciones wifi*/
-    
+    switch(u8MsgType)
+    {
+        case M2M_WIFI_RESP_CON_STATE_CHANGED:
+        {
+            /*Colocar lo que quiero que pase si cambió el estado de conexion wifi*/
+            tstrM2mWifiStateChanged *pstrWifiState = (tstrM2mWifiStateChanged*)pvMsg;//oblicamos a pvMsg a tomar la forma de tipo
+                                                                                     //tstrM2mWifiStateChanged y lo almacenamos en el 
+            if(pstrWifiState->u8CurrState == M2M_WIFI_CONNECTED)
+            {/*Si entoy aqui es porque estoy conectado a la red*/
+                printf("Wi-fi STATE: CONNECTED \n");
+                BLUE_LED_SetLow();
+                RED_LED_SetHigh();
+            }
+            else if(pstrWifiState->u8CurrState == M2M_WIFI_DISCONNECTED)
+            {
+                printf("Wi-fi STATE: DISCONNECTED \n");
+                BLUE_LED_SetHigh();
+                RED_LED_SetLow();
+            }
+            break;                                                                   //nuevo puntero ptstrWifiState
+        }
+        case M2M_WIFI_REQ_DHCP_CONF:
+        {/*Notificacion que señala una direccion IP asignada por el servidor DHCP*/
+            
+            printf("IP Obtained by DHCP Server");
+            m2m_wifi_get_connection_info();//solicitamos la informacion de la red disparando el tercer case
+            
+            break;
+        }
+        case M2M_WIFI_RESP_CONN_INFO:
+        {
+            
+        }
+    }
 }
 
 int main(void)
