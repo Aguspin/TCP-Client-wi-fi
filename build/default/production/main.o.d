@@ -10,7 +10,10 @@ build/default/production/main.o: main.c mcc_generated_files/system.h \
  mcc_generated_files/winc/driver/include/../../../winc/driver/include/../../common/include/nm_common.h \
  mcc_generated_files/winc/driver/include/../../../winc/driver/source/nmdrv.h \
  mcc_generated_files/winc/driver/include/../../../winc/driver/source/../../common/include/nm_common.h \
- mcc_generated_files/config/conf_winc.h mcc_generated_files/pin_manager.h
+ mcc_generated_files/config/conf_winc.h mcc_generated_files/pin_manager.h \
+ mcc_generated_files/winc/socket/include/socket.h \
+ mcc_generated_files/winc/socket/include/../../common/include/nm_common.h \
+ mcc_generated_files/winc/socket/include/../../driver/include/m2m_types.h
 
 mcc_generated_files/system.h:
 
@@ -39,3 +42,9 @@ mcc_generated_files/winc/driver/include/../../../winc/driver/source/../../common
 mcc_generated_files/config/conf_winc.h:
 
 mcc_generated_files/pin_manager.h:
+
+mcc_generated_files/winc/socket/include/socket.h:
+
+mcc_generated_files/winc/socket/include/../../common/include/nm_common.h:
+
+mcc_generated_files/winc/socket/include/../../driver/include/m2m_types.h:
